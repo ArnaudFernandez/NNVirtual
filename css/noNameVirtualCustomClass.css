@@ -1,0 +1,137 @@
+.primaryTextColor a, .main-heading, .font-p2, h5, .primaryTextColor{
+    color: rgb(255, 255, 255);
+}
+
+.primaryBackgroundColor {
+    background-color: rgb(27, 37, 42, 0) !important;
+}
+
+.ctaPrimaryBg {
+    background-color: #F24738 !important;
+
+}
+
+.mainHeader {
+    background: rgba(27, 37, 42, 1) !important;
+    border: none !important;
+    color: white; !important;
+    width: 100vw;
+}
+
+.NNVlogo {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    width: 170px !important;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    position: fixed;
+}
+
+.logo-static {
+    margin-top: 15px;
+}
+
+/*
+*
+*
+*
+styles.css overrides
+*
+*
+*
+ */
+
+.header_mobile > div > div {
+    display: inline-table;
+}
+
+.header_mobile > div > div > div:nth-child(1) {
+    float: left;
+}
+
+.header_mobile > div > div > div:nth-child(2) {
+    float: right;
+}
+
+h4 {
+    font-size: 20px !important;
+}
+
+@media only screen and (max-width: 1199px) {
+    .header_mobile .mlogo_wrapper {
+        background-color: rgba(27, 37, 42, 1) !important;
+        width: 100%;
+    }
+
+    .header_mobile > .container
+    {
+        height: 75px;
+    }
+}
+
+.ot-cprocess-item-desc > p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.ft-menu-item {
+    color: white !important;
+}
+
+.content-box > p {
+    color: rgb(208, 208, 208);
+}
+
+.icon-main > span {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.shape-fill {
+    fill: rgba(27, 37, 42, 1) !important;
+}
+
+.bg-light {
+    background-color: rgba(255, 255, 255, 0.04) !important;
+}
+
+div .custom.tp-bullets .tp-bullet:hover, div .custom.tp-bullets .tp-bullet.selected
+{
+    color : #F24738 !important;
+}
+
+li .current-menu-item > a {
+    color : #F24738 !important;
+
+}
+
+.mobile_mainmenu > li {
+    background-color: rgba(27, 37, 42, 1) !important;
+    color: white !important;
+    border: 0px !important;
+}
+
+.mobile_mainmenu > li > a, .sub-menu > li > a, .menuButtonToggle {
+    color: white !important;
+}
+
+.menuButtonToggle{
+    color: white !important;
+}
+
+.main-navigation ul ul {
+    background-color: #0b0b0b;
+}
+
+div .custom.tp-bullets .tp-bullet {
+    color : #FFF !important;
+}
+
+div .custom .tp-bullet:after {
+    background: #F24738 !important;
+}
+
+.main-navigation ul > li > a {
+    color: white !important
+}
