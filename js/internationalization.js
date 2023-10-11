@@ -3,7 +3,6 @@ import Backend from 'i18next-http-backend';
 const baseURL = process.env.BASE_URL || '';
 
 document.addEventListener('DOMContentLoaded', function() {
-    console.log('DOM Content loaded');
     updateTranslations();
 });
 
