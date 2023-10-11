@@ -1,5 +1,6 @@
 import i18n from 'i18next';
 import Backend from 'i18next-http-backend';
+const baseURL = process.env.BASE_URL || '';
 
 document.addEventListener('DOMContentLoaded', function() {
     console.log('DOM Content loaded');
@@ -143,7 +144,7 @@ i18n
     .init({
         backend: {
             // Chemin d'accès aux fichiers de traduction
-            loadPath: '../locales/{{lng}}/{{ns}}.json'
+            loadPath: '${baseURL}/locales/{{lng}}/{{ns}}.json'
         },
         fallbackLng: 'fr',
         debug: true,
