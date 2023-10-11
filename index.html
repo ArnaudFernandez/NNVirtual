@@ -49,21 +49,52 @@
                                 <nav class="main-navigation" id="site-navigation">
                                     <ul class="menu" id="primary-menu">
                                         <li class="current-menu-item current-menu-ancestor"><a
-                                                href="index.html">Accueil</a>
+                                                href="index.html"><div id="home">Accueil</div></a>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Services</a>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">
+                                                <div id="services">Services</div>
+                                            </a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Placeholder 1</a></li>
+                                                <li><a href="#">
+                                                    <div id="servicesSubmenu1">Placeholder 1</div>
+                                                </a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="#">Réalisations</a>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">
+                                                <div id="realisations">Réalisations</div>
+                                            </a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Placeholder 1</a></li>
+                                                <li><a href="#">
+                                                    <div id="realisationsSubmenu1">Placeholder 1</div>
+                                                </a></li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children"><a href="blog.html">Blog</a>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">
+                                                <div id="blog">Blog</div>
+                                            </a>
                                             <ul class="sub-menu">
-                                                <li><a href="#">Placeholder 1</a></li>
+                                                <li>
+                                                    <a href="#">
+                                                        <div id="blogSubmenu1">Placeholder 1</div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children">
+                                            <a href="#">
+                                                <div id="language">Langue</div>
+                                            </a>
+                                            <ul class="sub-menu">
+                                                <li>
+                                                    <select id="languageSelector">
+                                                        <option value="fr">Français</option>
+                                                        <option value="en">English</option>
+                                                        <!-- ... autres options de langue -->
+                                                    </select>
+                                                </li>
                                             </ul>
                                         </li>
                                     </ul>
@@ -75,7 +106,9 @@
                                 <div class="octf-btn-cta">
                                     <div class="octf-header-module">
                                         <div class="btn-cta-group btn-cta-header" style="margin: 0 20px 0 0">
-                                            <a class="octf-btn octf-btn-third" href="#">Allons-y !</a>
+                                            <a class="octf-btn octf-btn-third" href="#">
+                                                <div id="ctaButton">Allons-y</div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -109,21 +142,57 @@
                     <div class="mobile_nav">
                         <ul class="mobile_mainmenu" id="menu-main-menu">
                             <li class="current-menu-item current-menu-ancestor"><a
-                                    href="index.html">Home</a>
+                                    href="index.html">
+                                <div id="homeMobile">Accueil</div>
+                            </a>
                             </li>
-                            <li class="menu-item-has-children"><a href="#">Services</a>
+                            <li class="menu-item-has-children">
+                                <a href="#">
+                                    <div id="servicesMobile">Services</div>
+                                </a>
                                 <ul class="sub-menu">
-                                    <li><a href="#">Placeholder 1</a></li>
+                                    <li>
+                                        <a href="#">
+                                            <div id="servicesSubmenu1Mobile">Placeholder 1</div>
+                                        </a>
+                                    </li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="#">Réalisations</a>
+                            <li class="menu-item-has-children">
+                                <a href="#">
+                                    <div id="realisationsMobile">Réalisations</div>
+                                </a>
                                 <ul class="sub-menu">
-                                    <li><a href="#">Placeholder 1</a></li>
+                                    <li>
+                                        <a href="#">
+                                            <div id="realisationsSubmenu1Mobile">Placeholder 1</div>
+                                        </a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="blog.html">Blog</a>
+                            <li class="menu-item-has-children">
+                                <a href="#">
+                                    <div id="blogMobile">Blog</div>
+                                </a>
                                 <ul class="sub-menu">
-                                    <li><a href="#">Placeholder 1</a></li>
+                                    <li>
+                                        <a href="#">
+                                            <div id="blogSubmenu1Mobile">Placeholder 1</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-has-children">
+                                <a href="#">
+                                    <div id="languageMobile">Langue</div>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <select id="languageSelectorMobile">
+                                            <option value="fr">Français</option>
+                                            <option value="en">English</option>
+                                            <!-- ... autres options de langue -->
+                                        </select>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
@@ -131,7 +200,9 @@
                                 <div class="octf-btn-cta">
                                     <div class="octf-header-module">
                                         <div class="btn-cta-group btn-cta-header">
-                                            <a class="octf-btn octf-btn-third" href="#">Allons-y !</a>
+                                            <a class="octf-btn octf-btn-third" href="#">
+                                                <div id="ctaButtonMobile">Allons-y</div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -256,7 +327,7 @@
                                  id="slide-70-layer-7"
 
                                  style="z-index: 10; white-space: normal;font-family: 'Red Hat Display', sans-serif;">
-                                <div id="bannerSubtitle1"></div>
+                                <div id="bannerSubtitle1">Créez avec nous les nouvelles images de demain,\nquand vous voulez, ou vous voulez.</div>
                             </div>
 
                             <!-- LAYER 6  Read More-->
@@ -279,8 +350,11 @@
                                  data-y="['top','top','top','top']"
                                  id="slide-70-layer-8"
 
-                                 style="z-index:10;"><a class="octf-btn ctaPrimaryBg octf-btn-icon" href="#">Allons-y <i
-                                    class="flaticon-right-arrow-1"></i></a></div>
+                                 style="z-index:10;">
+                                <a id="ctaButtonSlide1" class="octf-btn ctaPrimaryBg octf-btn-icon" href="#">
+                                    Allons-y
+                                    <i class="flaticon-right-arrow-1"></i>
+                                </a></div>
                         </li>
 
 
@@ -362,7 +436,7 @@
                                  id="slide-71-layer-6"
 
                                  style="z-index: 10;  font-weight: 900;; font-family: 'Red Hat Display', sans-serif;">
-                                Vos images, <br> vos règles.
+                                <div id="bannerTitle2">Vos images, vos règles</div>
                             </div>
 
                             <!-- LAYER 5  Paragraph-->
@@ -384,7 +458,7 @@
                                  id="slide-71-layer-7"
 
                                  style="z-index: 10; white-space: normal;font-family: 'Red Hat Display', sans-serif;">
-                                Prenez totalement le contrôle sur vos <br> vidéos, sans limites, sans contraintes.
+                                <div id="bannerSubtitle2">Prenez totalement le contrôle sur vos <br> vidéos, sans limites, sans contraintes.</div>
                             </div>
 
                             <!-- LAYER 6  Read More-->
@@ -407,9 +481,11 @@
                                  data-y="['top','top','top','top']"
                                  id="slide-71-layer-8"
 
-                                 style="z-index:10;"><a class="octf-btn ctaPrimaryBg octf-btn-icon" href="#">
-                                Allons-y
-                                <i class="flaticon-right-arrow-1"></i></a></div>
+                                 style="z-index:10;">
+                                <a id="ctaButtonSlide2" class="octf-btn ctaPrimaryBg octf-btn-icon" href="#">
+                                    Allons-y
+                                    <i class="flaticon-right-arrow-1"></i>
+                                </a></div>
                         </li>
 
                         <!-- SLIDE 1 -->
@@ -466,7 +542,7 @@
                                  data-width="['861','500','0','0']"
                                  data-x="['right','right','right','right']"
                                  data-y="['top','top','top','top']"
-                                 id="slide-71-layer-2"
+                                 id=""
 
                                  style="z-index: 6;">
                                 <img alt="" src="images/placeholder-hero_banner.png">
@@ -490,7 +566,7 @@
                                  id="slide-72-layer-6"
 
                                  style="z-index: 10;  font-weight: 900; font-family: 'Red Hat Display', sans-serif;">
-                                Gagnez du <br> temps
+                                <div id="bannerTitle3">Gagnez du <br> temps</div>
                             </div>
 
                             <!-- LAYER 5  Paragraph-->
@@ -512,7 +588,7 @@
                                  id="slide-72-layer-7"
 
                                  style="z-index: 10; white-space: normal;font-family: 'Red Hat Display', sans-serif;">
-                                Tournez dans l'environnement de votre choix. <br> De la ville à la forêt en 1 clic !
+                                <div id="bannerSubtitle3">Tournez dans l'environnement de votre choix. <br> De la ville à la forêt en 1 clic !</div>
                             </div>
 
                             <!-- LAYER 6  Read More-->
@@ -536,7 +612,7 @@
                                  id="slide-72-layer-8"
 
                                  style="z-index:10;">
-                                <a class="octf-btn ctaPrimaryBg octf-btn-icon" href="#">
+                                <a id="ctaButtonSlide3" class="octf-btn ctaPrimaryBg octf-btn-icon" href="#">
                                     Allons-y
                                     <i class="flaticon-right-arrow-1"></i>
                                 </a>
@@ -687,25 +763,27 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12 p-b20">
                         <div class="ot-heading text-center">
-                            <h2 class="main-heading">Gagnez sur tous<br>tous les fronts</h2>
+                            <h2 id="beforeAfterTitle" class="main-heading">
+                                    Économisez.<br>Sur tout.
+                            </h2>
                         </div>
                     </div>
                     <div class="col-md-12 col-xs-12 p-b120 xs-p-b60">
                         <div class="real-numbers font-second">
-                            <span class="b-switch active">Avant</span>
+                            <span id="before" class="b-switch active">Avant</span>
                             <label class="switch">
                                 <input type="checkbox">
                                 <span class="slider round"></span>
                             </label>
-                            <span class="a-switch">Après</span>
+                            <span id="after" class="a-switch">Après</span>
                             <div class="chart-boxs clearfix">
                                 <img alt="" class="img-before" src="https://via.placeholder.com/97x224.png">
                                 <img alt="" class="img-after" src="https://via.placeholder.com/97x224.png">
                                 <div class="col-md col-md-4">
                                     <div class="chart-item">
-                                        <h2 class="before" style="color: ">5</h2>
-                                        <h2 class="after" style="color: ">2</h2>
-                                        <span>Jours de tournage</span>
+                                        <h2 class="before">5</h2>
+                                        <h2 class="after">2</h2>
+                                        <span id="beforeAfterStat1">Jours de tournage</span>
                                         <img alt="" class="img-box" src="images/bg-chart1.png">
                                     </div>
                                 </div>
@@ -713,7 +791,7 @@
                                     <div class="chart-item">
                                         <h2 class="before" style="color: #06f0c8">15</h2>
                                         <h2 class="after" style="color: #06f0c8">5</h2>
-                                        <span>Personnes mobilisées</span>
+                                        <span id="beforeAfterStat2">Personnes mobilisées</span>
                                         <img alt="" class="img-box" src="images/bg-chart2.png">
                                     </div>
                                 </div>
@@ -721,7 +799,7 @@
                                     <div class="chart-item">
                                         <h2 class="before" style="color: #fe4c1c">28</h2>
                                         <h2 class="after" style="color: #fe4c1c">0</h2>
-                                        <span>Prises de tête</span>
+                                        <span id="beforeAfterStat3">Prises de tête</span>
                                         <img alt="" class="img-box" src="images/bg-chart3.png">
                                     </div>
                                 </div>
@@ -730,14 +808,14 @@
                     </div>
                     <div class="col-md-4 col-xs-12">
                         <div class="ot-heading left-align">
-                            <h6><span>NOS EXPERTISES</span></h6>
-                            <h2 class="main-heading m-b15">Rapide.<br>Flexible.<br>Efficace.</h2>
+                            <h6><span id="ourExpertises">NOS EXPERTISES</span></h6>
+                            <h2 id="expertisesTitle" class="main-heading m-b15">Rapide.<br>Flexible.<br>Efficace.</h2>
                         </div>
-                        <p class="font-p2 m-b40 primaryTextColor">La production virtuelle nous permet
+                        <p id="expertisesText" class="font-p2 m-b40 primaryTextColor">La production virtuelle nous permet
                         d'être sur énormément de types de production différentes, vous trouverez forcément
                         votre place avec nous</p>
                         <div class="ot-button">
-                            <a class="octf-btn octf-btn-secondary octf-btn-icon" href="#"><span>Je suis prêt. <i
+                            <a id="ctaButtonExpertises" class="octf-btn octf-btn-secondary octf-btn-icon" href="#"><span>Je suis prêt. <i
                                     class="flaticon-right-arrow-1"></i></span></a>
                         </div>
                     </div>
@@ -752,8 +830,8 @@
                                 </span>
                             </div>
                             <div class="content-box">
-                                <h5>Clips vidéos</h5>
-                                <p>Laissez votre immagination s'exprimer sans limites. Sur la lune, dans un château médiaval,
+                                <h5 id="videoClips">Clips vidéos</h5>
+                                <p id="videoClipsText">Laissez votre immagination s'exprimer sans limites. Sur la lune, dans un château médiaval,
                                 au coeur d'un désert en feu, tout est possible.</p>
                             </div>
                         </div>
@@ -768,8 +846,8 @@
                                 </span>
                             </div>
                             <div class="content-box">
-                                <h5>Télévision</h5>
-                                <p>Vos émissions, en mieux. Tournez en temps record, présentez vos sujets avec
+                                <h5 id="television">Télévision</h5>
+                                <p id="televisionText">Vos émissions, en mieux. Tournez en temps record, présentez vos sujets avec
                                 des visuels pertinents et captivants.</p>
                             </div>
                         </div>
@@ -784,8 +862,8 @@
                                 </span>
                             </div>
                             <div class="content-box">
-                                <h5>Films & séries</h5>
-                                <p>Tournez, re-tournez dans les mêmes lieux, quand vous voulez, ou vous voulez.
+                                <h5 id="filmAndSeries">Films & séries</h5>
+                                <p id="filmAndSeriesText">Tournez, re-tournez dans les mêmes lieux, quand vous voulez, ou vous voulez.
                                 Créez des scènes pertinentes pour raconter vos histoires puissantes.</p>
                             </div>
                         </div>
@@ -803,8 +881,8 @@
                                 </span>
                             </div>
                             <div class="content-box">
-                                <h5>Créateurs de contenus</h5>
-                                <p>TikTok, Youtube, Instagram, créez des contenus avec des visuels époustouflants
+                                <h5 id="contentCreators">Créateurs de contenus</h5>
+                                <p id="contentCreatorsText">TikTok, Youtube, Instagram, créez des contenus avec des visuels époustouflants
                                 et garantissez le succès de vos contenus !</p>
                             </div>
                         </div>
@@ -819,8 +897,8 @@
                                 </span>
                             </div>
                             <div class="content-box">
-                                <h5>Publicité</h5>
-                                <p>Valorisez plus efficacement votre produit ou votre service en y apportant
+                                <h5 id="advertising">Publicité</h5>
+                                <p id="advertisingText">Valorisez plus efficacement votre produit ou votre service en y apportant
                                 un visuel incroyable.</p>
                             </div>
                         </div>
@@ -835,8 +913,8 @@
                                 </span>
                             </div>
                             <div class="content-box">
-                                <h5>Jeux vidéos</h5>
-                                <p>Lorem ipsum dolor</p>
+                                <h5 id="videoGames">Jeux vidéos</h5>
+                                <p id="videoGamesText">Lorem ipsum dolor</p>
                             </div>
                         </div>
 
@@ -851,7 +929,7 @@
                 <div class="row">
                     <div class="col-md-12 col-xs-12 m-t--210 xs-m-t0">
                         <div class="services-video">
-                            <h2>Des images valent mieux que milles mots !</h2>
+                            <h2 id="videoHighlightText">Des images valent mieux que milles mots !</h2>
                             <div class="video-popup">
                                 <div class="btn-inner">
                                     <a class="btn-play" href="https://vimeo.com/863077697"><i class="fas fa-play"></i>
@@ -871,7 +949,7 @@
                                 <span class="num" data-time="2000" data-to="5">0</span>
                                 <span>+</span>
                             </div>
-                            <h6>ANNÉES D'EXPERTISE</h6>
+                            <h6 id="expertiseYears">ANNÉES D'EXPERTISE</h6>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 xs-m-b40 sm-m-b40 xs-text-center">
@@ -880,7 +958,7 @@
                                 <span class="num" data-time="2000" data-to="100">0</span>
                                 <span>+</span>
                             </div>
-                            <h6>PROJETS</h6>
+                            <h6 id="projects">PROJETS</h6>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 xs-m-b40 xs-text-center">
@@ -889,7 +967,7 @@
                                 <span class="num" data-time="2000" data-to="30">0</span>
                                 <span>+</span>
                             </div>
-                            <h6>PARTENAIRES</h6>
+                            <h6 id="partners">PARTENAIRES</h6>
                         </div>
                     </div>
                     <div class="col-md-3 col-sm-6 col-xs-6 xs-text-center">
@@ -898,7 +976,7 @@
                                 <span class="num" data-time="2000" data-to="2000">0</span>
                                 <span>+</span>
                             </div>
-                            <h6>CAFÉS </h6>
+                            <h6 id="coffee">CAFÉS</h6>
                         </div>
                     </div>
                 </div>
@@ -923,15 +1001,15 @@
                     <div class="col-md-8 col-sm-8 col-xs-12">
                         <div class="ot-heading left-align">
                             <h6><span>NoName team</span></h6>
-                            <h2 class="main-heading">La famille NoName Virtual</h2>
+                            <h2 id="nonameFamily" class="main-heading">La famille NoName Virtual</h2>
                         </div>
-                        <p class="primaryTextColor">On ne pouvait pas laisser vos projets dans les mains d'amateurs.
+                        <p id="nonameFamilyText" class="primaryTextColor">On ne pouvait pas laisser vos projets dans les mains d'amateurs.
                             <br>Alors on a décidé d'être les meilleurs !
                         </p>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12 xs-m-t30 text-right xs-text-left">
                         <div class="ot-button">
-                            <a class="octf-btn ctaPrimaryBg octf-btn-icon" href="#"><span>Je veux vous rejoindre !<i
+                            <a class="octf-btn ctaPrimaryBg octf-btn-icon" href="#"><span id="iWantToJoin">Je veux vous rejoindre !<i
                                     class="flaticon-right-arrow-1"></i></span></a>
                         </div>
                     </div>
@@ -945,7 +1023,7 @@
                                 </div>
                                 <div class="team-info">
                                     <h4>Kevin GARCIA</h4>
-                                    <span>Co-Fondateur & Chef opérateur</span>
+                                    <span id="kevinTitle">Co-Fondateur & Chef opérateur</span>
                                     <div class="team-social">
                                         <a class="twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
                                         <a class="facebook" href="#" target="_blank"><i
@@ -961,7 +1039,7 @@
                                 </div>
                                 <div class="team-info">
                                     <h4>Julien THISSE</h4>
-                                    <span>Co-Fondateur, réalisateur & artiste 3D</span>
+                                    <span id="julienTitle">Co-Fondateur, réalisateur & artiste 3D</span>
                                     <div class="team-social">
                                         <a class="twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
                                         <a class="facebook" href="#" target="_blank"><i
@@ -977,7 +1055,7 @@
                                 </div>
                                 <div class="team-info">
                                     <h4>Arnaud FERNANDEZ</h4>
-                                    <span>Co-Fondateur & ingénieur logiciel</span>
+                                    <span id="arnaudTitle">Co-Fondateur & ingénieur logiciel</span>
                                     <div class="team-social">
                                         <a class="twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
                                         <a class="facebook" href="#" target="_blank"><i
@@ -998,73 +1076,73 @@
                 <div class="row p-t110">
                     <div class="col-md-12 col-xs-12 text-center m-b40">
                         <div class="ot-heading">
-                            <h6><span>on s'adapte</span></h6>
-                            <h2 class="main-heading">Formats Flexibles</h2>
+                            <h6><span id="weAdapt">on s'adapte</span></h6>
+                            <h2 class="main-heading" id="flexibleFormat">Formats Flexibles</h2>
                         </div>
-                        <p class="primaryTextColor">Que vous soyez particuliers ou professionnels, avec un petit ou un gros projet,
+                        <p class="primaryTextColor" id="flexibleFormatText">Que vous soyez particuliers ou professionnels, avec un petit ou un gros projet,
                         nous avons surement la formule qu'il vous faut.</p>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 sm-p-b60">
                         <div class="ot-pricing-table bg-shape s1">
-                            <span class="title-table">Économique</span>
+                            <span class="title-table" id="economy">Économique</span>
                             <div class="inner-table">
                                 <img alt="Standard" src="https://via.placeholder.com/93x116.png">
-                                <h2>Prêt à tourner</h2>
-                                <p>Sur les environnements NoName</p>
+                                <h2 id="titleOffer1">Prêt à tourner</h2>
+                                <p id="subtitleOffer1">Sur les environnements NoName</p>
                                 <div class="details">
                                     <ul>
-                                        <li>Choisissez votre environnement</li>
-                                        <li>Adaptez-le avec nos éléments 3D</li>
-                                        <li>Tournez quasi-immédiatement au studio</li>
-                                        <li>Créez les médias finaux vous-même ou avec nous</li>
+                                        <li id="offer1row1">Choisissez votre environnement</li>
+                                        <li id="offer1row2">Adaptez-le avec nos éléments 3D</li>
+                                        <li id="offer1row3">Tournez quasi-immédiatement au studio</li>
+                                        <li id="offer1row4">Créez les médias finaux vous-même ou avec nous</li>
                                     </ul>
                                 </div>
                             </div>
-                            <a class="octf-btn octf-btn-icon octf-btn-secondary" href="#">C'est ce qu'il me faut <i
+                            <a id="ctaButtonOffer1" class="octf-btn octf-btn-icon octf-btn-secondary" href="#">C'est ce qu'il me faut <i
                                     class="flaticon-right-arrow-1"></i></a>
                         </div>
                     </div>
                     <div class="col-md-4 sm-p-b60">
                         <div class="ot-pricing-table bg-shape s2">
-                            <span class="title-table">Flexible</span>
+                            <span class="title-table" id="flexible">Flexible</span>
                             <div class="inner-table">
                                 <img alt="Economy" src="https://via.placeholder.com/93x116.png">
-                                <h2>À la carte</h2>
-                                <p>Choissez vos services</p>
+                                <h2 id="titleOffer2">À la carte</h2>
+                                <p id="subtitleOffer2">Choissez vos services</p>
                                 <div class="details">
                                     <ul>
-                                        <li>Création de l'environnement virtuel</li>
-                                        <li>Location du studio virtuel</li>
-                                        <li>Équipe technique complète</li>
-                                        <li>Gestion de la production</li>
-                                        <li>Création du/des médias finaux</li>
+                                        <li id="offer2row1">Création de l'environnement virtuel</li>
+                                        <li id="offer2row2">Location du studio virtuel</li>
+                                        <li id="offer2row3">Équipe technique complète</li>
+                                        <li id="offer2row4">Gestion de la production</li>
+                                        <li id="offer2row5">Création du/des médias finaux</li>
                                     </ul>
                                 </div>
                             </div>
-                            <a class="octf-btn octf-btn-icon octf-btn-third" href="#">Je suis exigent <i
+                            <a id="ctaButtonOffer2" class="octf-btn octf-btn-icon octf-btn-third" href="#">Je suis exigent <i
                                     class="flaticon-right-arrow-1"></i></a>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="ot-pricing-table bg-shape s3">
-                            <span class="title-table">Complet</span>
+                            <span id="full" class="title-table">Complet</span>
                             <div class="inner-table">
                                 <img alt="Executive" src="https://via.placeholder.com/93x116.png">
-                                <h2>Clé en main</h2>
-                                <p>On s'occupe de tout !</p>
+                                <h2 id="titleOffer3">Clé en main</h2>
+                                <p id="subtitleOffer3">On s'occupe de tout !</p>
                                 <div class="details">
                                     <ul>
-                                        <li>Création de l'environnement virtuel</li>
-                                        <li>Location du studio virtuel</li>
-                                        <li>Équipe technique complète</li>
-                                        <li>Gestion de la production</li>
-                                        <li>Création du/des médias finaux</li>
+                                        <li id="offer3row1">Création de l'environnement virtuel</li>
+                                        <li id="offer3row2">Location du studio virtuel</li>
+                                        <li id="offer3row3">Équipe technique complète</li>
+                                        <li id="offer3row4">Gestion de la production</li>
+                                        <li id="offer3row5">Création du/des médias finaux</li>
                                     </ul>
                                 </div>
                             </div>
-                            <a class="octf-btn octf-btn-icon ctaPrimaryBg" href="#">J'aime être mené au succès <i
+                            <a id="ctaButtonOffer3" class="octf-btn octf-btn-icon ctaPrimaryBg" href="#">J'aime être mené au succès <i
                                     class="flaticon-right-arrow-1"></i></a>
                         </div>
                     </div>
@@ -1090,8 +1168,8 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 text-center m-b35">
                         <div class="ot-heading">
-                            <h6><span>Projets</span></h6>
-                            <h2 class="main-heading">Un Cycle de Production Clair,<br>Rapide et Efficace</h2>
+                            <h6><span id="projects2">Projets</span></h6>
+                            <h2 id="productionCycleTitle" class="main-heading">Un Cycle de Production Clair,<br>Rapide et Efficace</h2>
                         </div>
                     </div>
                     <div class="col-md-12 col-xs-12 text-center">
@@ -1100,9 +1178,9 @@
                                 <div class="ot-cprocess-item-number font-second">01</div>
                                 <div class="ot-cprocess-item-inner">
                                     <div class="ot-cprocess-item-dot"></div>
-                                    <div class="ot-cprocess-item-title font-second primaryTextColor">Établissement des besoins</div>
+                                    <div id="productionCycleTitle1" class="ot-cprocess-item-title font-second primaryTextColor">Établissement des besoins</div>
                                     <div class="ot-cprocess-item-desc font-main primaryTextColor">
-                                        <p>Nous vous accompagnons pour établir vos besoins & préparer
+                                        <p id="productionCycleSubtitle1">Nous vous accompagnons pour établir vos besoins & préparer
                                         <br>tout ce qui est nécessaire au tournage</p>
                                     </div>
                                 </div>
@@ -1111,9 +1189,9 @@
                                 <div class="ot-cprocess-item-number font-second">02</div>
                                 <div class="ot-cprocess-item-inner">
                                     <div class="ot-cprocess-item-dot"></div>
-                                    <div class="ot-cprocess-item-title font-second">Tournage</div>
+                                    <div id="productionCycleTitle2" class="ot-cprocess-item-title font-second">Tournage</div>
                                     <div class="ot-cprocess-item-desc font-main">
-                                        <p>Nous tournons avec notre<br>
+                                        <p id="productionCycleSubtitle2">Nous tournons avec notre<br>
                                             studio virtuel, dans nos locaux ou ailleurs</p>
                                     </div>
                                 </div>
@@ -1122,9 +1200,9 @@
                                 <div class="ot-cprocess-item-number font-second">03</div>
                                 <div class="ot-cprocess-item-inner">
                                     <div class="ot-cprocess-item-dot"></div>
-                                    <div class="ot-cprocess-item-title font-second">Post-production</div>
+                                    <div id="productionCycleTitle3" class="ot-cprocess-item-title font-second">Post-production</div>
                                     <div class="ot-cprocess-item-desc font-main">
-                                        <p>Nous retouchons vos images & créons avec vous
+                                        <p id="productionCycleSubtitle3">Nous retouchons vos images & créons avec vous
                                             <br>vos médias finaux</p>
                                     </div>
                                 </div>
@@ -1146,24 +1224,24 @@
                                 <div class="number-box">01</div>
                                 <div class="icon-main"></div>
                                 <div class="content-box">
-                                    <h5>Établissement des besoins</h5>
-                                    <p>Nous vous accompagnons pour établir vos besoins & préparer tout ce qui est nécessaire au tournage</p>
+                                    <h5 id="productionCycleTitle1Mobile">Établissement des besoins</h5>
+                                    <p id="productionCycleSubtitle1Mobile">Nous vous accompagnons pour établir vos besoins & préparer tout ce qui est nécessaire au tournage</p>
                                 </div>
                             </div>
                             <div class="process-box">
                                 <div class="number-box">02</div>
                                 <div class="icon-main"></div>
                                 <div class="content-box">
-                                    <h5>Tournage</h5>
-                                    <p>Nous tournons avec notre studio virtuel, dans nos locaux ou ailleurs</p>
+                                    <h5 id="productionCycleTitle2Mobile">Tournage</h5>
+                                    <p id="productionCycleSubtitle2Mobile">Nous tournons avec notre studio virtuel, dans nos locaux ou ailleurs</p>
                                 </div>
                             </div>
                             <div class="process-box">
                                 <div class="number-box">03</div>
                                 <div class="icon-main"></div>
                                 <div class="content-box">
-                                    <h5>Post-production</h5>
-                                    <p>Nous retouchons vos images & créons avec vous vos médias finaux</p>
+                                    <h5 id="productionCycleTitle3Mobile">Post-production</h5>
+                                    <p id="productionCycleSubtitle3Mobile">Nous retouchons vos images & créons avec vous vos médias finaux</p>
                                 </div>
                             </div>
                         </div>
@@ -1177,15 +1255,15 @@
                 <div class="row m-b40">
                     <div class="col-md-8 col-sm-8 col-xs-12">
                         <div class="ot-heading left-align">
-                            <h6><span>notre blog</span></h6>
-                            <h2 class="main-heading">Nos derniers articles</h2>
+                            <h6><span id="ourBlog">notre blog</span></h6>
+                            <h2 class="main-heading" id="ourLastArticle">Nos derniers articles</h2>
                         </div>
-                        <p class="primaryTextColor">Apprenez-en plus sur la production virtuelle et audiovisuelle.
+                        <p class="primaryTextColor" id="ourBlogText">Apprenez-en plus sur la production virtuelle et audiovisuelle.
                         <br>Le succès passe par la connaissance !</p>
                     </div>
                     <div class="col-md-4 col-sm-4 col-xs-12 text-right m-t15 xs-text-left">
                         <div class="ot-button">
-                            <a class="octf-btn ctaPrimaryBg octf-btn-icon" href="#"><span>Tous nos articles <i
+                            <a class="octf-btn ctaPrimaryBg octf-btn-icon" href="#"><span id="allOurArticle">Tous nos articles <i
                                     class="flaticon-right-arrow-1"></i></span></a>
                         </div>
                     </div>
@@ -1332,7 +1410,7 @@
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget">
-                            <h5>L'écosystème NoName</h5>
+                            <h5 id="nonameEcosystem">L'écosystème NoName</h5>
                             <ul class="ft-menu-list">
                                 <li class="ft-menu-item">
                                     <b>NoName Visual</b>
@@ -1357,16 +1435,16 @@
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget">
-                            <h5>Pour les curieux</h5>
+                            <h5 id="forTheCurious">Pour les curieux</h5>
                             <ul class="ft-menu-list">
                                 <li class="ft-menu-item">
-                                    <a href="#">Contact</a>
+                                    <a href="#" id="contact">Contact</a>
                                 </li>
                                 <li class="ft-menu-item">
-                                    <a href="#">Mentions légales</a>
+                                    <a href="#" id="legals">Mentions légales</a>
                                 </li>
                                 <li class="ft-menu-item">
-                                    <a href="#">Politique de confidentialité</a>
+                                    <a href="#" id="confidentiality">Politique de confidentialité</a>
                                 </li>
                                 <li class="ft-menu-item">
                                     <a href="#">Blog</a>
@@ -1385,7 +1463,7 @@
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget">
                             <h5>Newsletter</h5>
-                            <p>Restez au courant de nos dernières actualités.</p>
+                            <p id="newsletterText">Restez au courant de nos dernières actualités.</p>
                             <form action="newsletter.php" class="mc4wp-form" data-name="Subscribe Form Footer"
                                   method="POST">
                                 <div class="mc4wp-form-fields">
@@ -1408,7 +1486,7 @@
                         <img alt="NoName Virtual logo" src="images/LOGO_Virtual_Transparent_V0_cropped.png">
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-12">
-                        <p class="copyright-2 text-right">Copyright © 2023 NoName Virtual by NoName. Tous droits réservés.</p>
+                        <p id="copyrights" class="copyright-2 text-right">Copyright © 2023 NoName Virtual by NoName. Tous droits réservés.</p>
                     </div>
                 </div>
             </div>
