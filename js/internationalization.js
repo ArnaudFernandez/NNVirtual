@@ -144,7 +144,7 @@ i18n
     .init({
         backend: {
             // Chemin d'accès aux fichiers de traduction
-            loadPath: '${baseURL}/locales/{{lng}}/{{ns}}.json'
+            loadPath: `${baseURL}/locales/{{lng}}/{{ns}}.json`
         },
         fallbackLng: 'fr',
         debug: true,
