@@ -1,0 +1,17 @@
+{
+  "name": "NoName Virtual",
+  "version": "1.0.0",
+  "dependencies": {
+    "i18next": "^23.5.1",
+    "i18next-http-backend": "^2.2.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "babel js --out-dir dist",
+    "build-webpack": "webpack --mode development"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.15.1"
+  }
+}
