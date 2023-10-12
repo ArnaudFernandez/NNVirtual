@@ -43,6 +43,10 @@ styles.css overrides
 *
  */
 
+.innerCtabutton {
+    margin: auto;
+}
+
 .header_mobile > div > div {
     display: inline-table;
 }
@@ -109,7 +113,7 @@ li .current-menu-item > a {
 .mobile_mainmenu > li {
     background-color: rgba(27, 37, 42, 1) !important;
     color: white !important;
-    border: 0px !important;
+    border: 0 !important;
 }
 
 .mobile_mainmenu > li > a, .sub-menu > li > a, .menuButtonToggle {
