@@ -1,5 +1,5 @@
 {
-  "name": "NoName Virtual",
+  "name": "NoNameVirtual",
   "version": "1.0.0",
   "dependencies": {
     "i18next": "^23.5.1",
