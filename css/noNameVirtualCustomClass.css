@@ -139,3 +139,73 @@ div .custom .tp-bullet:after {
 .main-navigation ul > li > a {
     color: white !important
 }
+
+.frSelectBackground {
+    background-image: url("/images/fr_flag.png");
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+.enSelectBackground {
+    background-image: url("/images/en_flag.png");
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+/* Style du conteneur */
+.custom-select {
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: grid;
+    align-content: space-evenly;
+}
+
+/* Style du select natif */
+#languageSelector {
+    width: auto;
+    height: 50px;
+    font-size: 0;
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    appearance: none;
+    cursor: pointer;
+    z-index: 2;
+    display: contents;
+}
+
+#languageSelector > label {
+    display: none;
+}
+
+/* Changements lors du survol */
+.custom-select:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.custom-select:hover:after {
+    background: #F04C28; /* encore un peu plus foncé au survol */
+}
+
+input[type="radio"]{
+    appearance: none;
+    -moz-appearance: none;
+    margin: 0 5px 0 5px;
+}
+
+input[type="radio"]:hover{
+    cursor: pointer;
+}
+
+input[type="radio"]:checked {
+    border: solid 1px #F04C28;
+    border-radius: 25px;
+}

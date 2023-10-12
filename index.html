@@ -83,21 +83,6 @@
                                                 </li>
                                             </ul>
                                         </li>
-                                        <li class="menu-item-has-children">
-                                            <a href="#">
-                                                <div id="language">Langue</div>
-                                            </a>
-                                            <ul class="sub-menu">
-                                                <li>
-                                                    <label for="languageSelector"></label>
-                                                    <select id="languageSelector">
-                                                        <option value="fr">Français</option>
-                                                        <option value="en">English</option>
-                                                        <!-- ... autres options de langue -->
-                                                    </select>
-                                                </li>
-                                            </ul>
-                                        </li>
                                     </ul>
                                 </nav><!-- #site-navigation -->
                             </div>
@@ -111,6 +96,16 @@
                                                 <div id="ctaButton">Allons-y</div>
                                             </a>
                                         </div>
+                                    </div>
+                                </div>
+                                <div class="custom-select">
+                                    <label id="language" style="display: none"></label>
+                                    <div id="languageSelector">
+                                        <input type="radio" checked id="fr" name="language" value="fr" class="frSelectBackground">
+                                        <label for="fr">Français</label>
+
+                                        <input type="radio" id="en" name="language" value="en" class="enSelectBackground">
+                                        <label for="en">English</label>
                                     </div>
                                 </div>
                             </div>
