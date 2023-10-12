@@ -1,12 +1,12 @@
 body.royal_preloader {
     background: none;
-    visibility: hidden;    
+    visibility: hidden;
 }
 #royal_preloader {
     visibility: visible;
     position: fixed;
+    background: rgba(27, 37, 42, 1) !important;
     width:100%;
-    height:100%;
     top: 0;
     right: 0;
     bottom: 0;
@@ -23,11 +23,11 @@ body.royal_preloader {
     right: 0;
     bottom: 0;
     left: 0;
-    background-image: -webkit-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
-    background-image: -moz-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
-    background-image: -ms-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
-    background-image: -o-radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
-    background-image: radial-gradient(circle, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.01));
+    background-image: -webkit-radial-gradient(circle, rgba(27, 37, 42, 0.1), rgba(27, 37, 42, 0.01));
+    background-image: -moz-radial-gradient(circle, rgba(27, 37, 42, 0.1), rgba(27, 37, 42, 0.01));
+    background-image: -ms-radial-gradient(circle, rgba(27, 37, 42, 0.1), rgba(27, 37, 42, 0.01));
+    background-image: -o-radial-gradient(circle, rgba(27, 37, 42, 0.1), rgba(27, 37, 42, 0.01));
+    background-image: radial-gradient(circle, rgba(27, 37, 42, 0.1), rgba(27, 37, 42, 0.01));
 }
 #royal_preloader.complete {
     opacity: 0;
@@ -57,12 +57,14 @@ body.royal_preloader {
     border-radius: 50%;
     line-height: 100px;
     font-size: 20px;
-    font-family: Impact, Arial;
+    font-family: Impact, Arial, serif;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    background: rgba(27, 37, 42, 1) !important;
     text-align: center;
 }
 #royal_preloader.royal_preloader_number .royal_preloader_percentage > div {
     position: absolute;
+    background: rgba(27, 37, 42, 1) !important;
     top: -2px;
     right: -2px;
     bottom: -2px;
@@ -158,21 +160,24 @@ body.royal_preloader {
     position: absolute;
     left: 50%;
     top: 50%;
-    margin: 0px;
+    margin: 0;
     overflow: hidden;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: 100%;
-    border-radius: 5px;
+    border-radius: 50px;
+    height: 200px;
+    width: 200px;
 }
 #royal_preloader.royal_preloader_logo .royal_preloader_loader div {
     position: absolute;
-    bottom: 0%;
-    left: 0px;
-    right: 0px;
+    display: none;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: 100%;
-    opacity: 0.7;
-    filter: alpha(opacity=70);
+    opacity: 1;
+    filter: alpha(opacity=0);
 }
 #royal_preloader.royal_preloader_logo .royal_preloader_percentage {
     position: absolute;
@@ -180,14 +185,15 @@ body.royal_preloader {
     left: 50%;
     height: 40px;
     line-height: 40px;
-    margin: 0px;
-    color: #072E77;
+    margin: 0;
+    color: #FFF !important;
     text-align: center;
-    font-family: 'Open Sans';
+    font-family: 'Lato';
     font-size: 13px;
     font-weight: 400;
     letter-spacing:2px;
     padding-top:10px;
+    background: rgba(27, 37, 42, 1) !important;
 }
 
 /* Progress Mode */
@@ -196,8 +202,8 @@ body.royal_preloader {
     top: 50%;
     left: 0;
     right: 0;
-    color: #AAAAAA;
-    color: rgba(255, 255, 255, 0.1);
+    color: rgba(27, 37, 42, 1);
+    background-color: rgba(27, 37, 42, 1) !important;
     font-family: Impact, Arial;
     font-size: 20px;
     text-align: center;
@@ -211,7 +217,7 @@ body.royal_preloader {
     width: 60%;
     height: 2px;
     margin: -10px auto auto auto;
-    background-color: rgba(0, 0, 0, 0.1); 
+    background-color: rgba(27, 37, 42, 0.1);
 }
 #royal_preloader.royal_preloader_progress .royal_preloader_meter {
     width: 0;
@@ -260,7 +266,7 @@ body.royal_preloader {
 }
 @-o-keyframes scale {
     0% { -o-transform: scale(0); opacity: 0;}
-    50% { -o-transform: scale(2); opacity: 0;.5}
+    50% { -o-transform: scale(2); opacity: 0.5}
     100% { -o-transform: scale(1); opacity: 1;}
 }
 @keyframes scale {
