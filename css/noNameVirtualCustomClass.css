@@ -141,7 +141,7 @@ div .custom .tp-bullet:after {
 }
 
 .frSelectBackground {
-    background-image: url("/images/fr_flag.png");
+    background-image: url("../images/fr_flag.png");
     background-position: center;
     background-size: contain;
     width: 20px;
@@ -149,7 +149,7 @@ div .custom .tp-bullet:after {
 }
 
 .enSelectBackground {
-    background-image: url("/images/en_flag.png");
+    background-image: url("../images/en_flag.png");
     background-position: center;
     background-size: contain;
     width: 20px;
