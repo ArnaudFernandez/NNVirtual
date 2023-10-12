@@ -39,6 +39,7 @@ html {
   /* 1 */
   -webkit-text-size-adjust: 100%;
   /* 2 */
+  overflow-x: hidden;
 }
 
 /* Sections
@@ -8802,7 +8803,7 @@ div.tp-bullets{
     padding: 180px 0 400px 0;
 }
 .home2-process .shape-top {
-    width: calc(125% + 1.3px);
+    width: calc(100% + 1.3px);
     height: 180px;
 }
 .home2-process .shape-bottom {
