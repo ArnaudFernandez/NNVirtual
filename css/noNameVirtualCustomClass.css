@@ -1,3 +1,17 @@
+.ctaButtonSliderOverride {
+    font-size: 20px !important;
+}
+
+.ctaButtonSliderOverride > a > span{
+    font-size: 15px !important;
+    vertical-align: inherit;
+}
+
+.ctaButtonSliderOverride > a > i{
+    font-size: 15px !important;
+    vertical-align: inherit;
+}
+
 .primaryTextColor a, .main-heading, .font-p2, h5, .primaryTextColor{
     color: rgb(255, 255, 255);
 }
@@ -45,6 +59,8 @@ styles.css overrides
 
 .innerCtabutton {
     margin: auto;
+    font-size: 15px !important;
+    vertical-align: inherit;
 }
 
 .header_mobile > div > div {

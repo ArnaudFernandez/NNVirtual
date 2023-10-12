@@ -284,6 +284,15 @@ website:   	http://www.themepunch.com
     width: 100%
 }
 
+@media (max-width: 767px){
+    .rev_slider_wrapper {
+        position: relative;
+        z-index: 0;
+        width: 100%;
+        margin-top: 50px;
+    }
+}
+
 .rev_slider {
     position: relative;
     overflow: visible

@@ -27,7 +27,7 @@
   font-family: Flaticon;
   font-size: 14px;
   font-style: normal;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .flaticon-arrow-point-to-right:before { content: "\f100"; }

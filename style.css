@@ -2191,8 +2191,8 @@ td {
 .octf-btn-icon i {
   background: #fff;
   color: #fe4c1c;
-  width: 40px;
-  height: 40px;
+  width: 40px !important;
+  height: 40px !important;
   line-height: 40px;
   text-align: center;
   display: inline-block;
@@ -8708,12 +8708,12 @@ img {
     background-color: #f0f6ff;
 }
 .overlay-home2-1 {
-    background-image: url(images/bg-sabout-home2.png);
+    background-image: none;
     background-position: 32% 180px;
     background-repeat: no-repeat;
 }
 .home2-pricing {
-    background-image: url(images/shape-team-1.png);
+    background-image: none;
     background-position: 0 560px;
     background-repeat: no-repeat;
     padding-bottom: 125px;
@@ -8803,7 +8803,7 @@ div.tp-bullets{
     padding: 180px 0 400px 0;
 }
 .home2-process .shape-top {
-    width: calc(100% + 1.3px);
+    width: calc(130% + 1.3px);
     height: 180px;
 }
 .home2-process .shape-bottom {
@@ -8812,13 +8812,13 @@ div.tp-bullets{
     transform: rotate(180deg);
 }
 .home2-news {
-    background-image: url(images/shape3-home1.png);
+    background-image: none;
     background-position: 100% 200px;
     background-repeat: no-repeat;
     padding: 100px 0 120px 0;
 }
 .home2-news .bg-overlay{
-    background-image: url(images/bg-sblog-home2.png);
+    background-image: none;
     background-position: center center;
     background-repeat: no-repeat;
     opacity: 1;
