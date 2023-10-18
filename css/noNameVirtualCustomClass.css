@@ -73,8 +73,8 @@
     animation: donut-anim 40s linear infinite;
     width: 217px;
     height: 217px;
-    -webkit-mask-image: url("/images/Donut_1.png");
-    mask-image: url("/images/Donut_1.png");
+    -webkit-mask-image: url("images/Donut_1.png");
+    mask-image: url("images/Donut_1.png");
 }
 
 /*
