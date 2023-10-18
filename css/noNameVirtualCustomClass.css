@@ -47,6 +47,36 @@
     margin-top: 15px;
 }
 
+.team-thumb-img {
+    width: 90%;
+    height: 90%;
+}
+
+@keyframes donut-anim {
+    0% {
+        transform: rotate(-80deg);
+        background-color: #F24738;
+    }
+    33% {
+        background-color: #06f0c8;
+    }
+    66% {
+        background-color: #d50000;
+    }
+    100% {
+        background-color: #F24738;
+        transform: rotate(-440deg);
+    }
+}
+
+.circle_logo {
+    animation: donut-anim 40s linear infinite;
+    width: 217px;
+    height: 217px;
+    -webkit-mask-image: url("/images/Donut_1.png");
+    mask-image: url("/images/Donut_1.png");
+}
+
 /*
 *
 *

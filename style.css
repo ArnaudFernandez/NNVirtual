@@ -6110,8 +6110,10 @@ object {
 
 .team-wrap {
   text-align: center;
+  padding-top: 20px;
 }
 .team-wrap .team-thumb {
+  padding-top: 20px;
   overflow: hidden;
   border-radius: 15px;
   -webkit-border-radius: 370px;
@@ -6360,7 +6362,7 @@ object {
   -moz-box-shadow: 8px 8px 18px 0 rgba(42, 67, 113, 0.3);
 }
 .ot-pricing-table .inner-table img {
-  margin-bottom: 35px;
+  margin-bottom: 25px;
 }
 .ot-pricing-table .inner-table h2 {
   font-size: 42px;
