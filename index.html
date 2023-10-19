@@ -26,7 +26,7 @@
 
 <body class="royal_preloader">
 <div class="site" id="page">
-    <header class="site-header mainHeader" id="site-header">
+    <header class="site-header mainHeader top-bar" id="site-header">
 
         <!-- Main Header start -->
         <div class="octf-main-header mainHeader">
@@ -45,7 +45,7 @@
                             <!-- logo start -->
 
                             <!-- nav start -->
-                            <div class="octf-col">
+                            <div style="display: none;" class="octf-col">
                                 <nav class="main-navigation" id="site-navigation">
                                     <ul class="menu" id="primary-menu">
                                         <li class="current-menu-item current-menu-ancestor"><a
@@ -137,12 +137,12 @@
                 <div class="mmenu_wrapper">
                     <div class="mobile_nav">
                         <ul class="mobile_mainmenu" id="menu-main-menu">
-                            <li class="current-menu-item current-menu-ancestor"><a
-                                    href="index.html">
+                            <li style="display: none" class="current-menu-item current-menu-ancestor">
+                                <a href="index.html">
                                 <div id="homeMobile">Accueil</div>
                             </a>
                             </li>
-                            <li class="menu-item-has-children">
+                            <li style="display: none" class="menu-item-has-children">
                                 <a href="#">
                                     <div id="servicesMobile">Services</div>
                                 </a>
@@ -154,7 +154,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children">
+                            <li style="display: none" class="menu-item-has-children">
                                 <a href="#">
                                     <div id="realisationsMobile">Réalisations</div>
                                 </a>
@@ -165,7 +165,7 @@
                                         </a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children">
+                            <li style="display: none" class="menu-item-has-children">
                                 <a href="#">
                                     <div id="blogMobile">Blog</div>
                                 </a>
@@ -281,7 +281,7 @@
                                  id="slide-70-layer-2"
 
                                  style="z-index: 6;">
-                                <img alt="" src="images/placeholder-hero_banner.png">
+                                <img class="imageBanniere" alt="" src="images/Green_Screen_Studio_V1.png">
                             </div>
 
                             <!-- LAYER 4  Bold Title-->
@@ -417,7 +417,7 @@
                                  id="slide-71-layer-2"
 
                                  style="z-index: 6;">
-                                <img alt="" src="images/placeholder-hero_banner.png">
+                                <img class="imageBanniere" alt="" src="images/Modern_Living_Room_V1.png">
                             </div>
 
                             <!-- LAYER 4  Bold Title-->
@@ -550,9 +550,8 @@
                                  data-x="['right','right','right','right']"
                                  data-y="['top','top','top','top']"
                                  id=""
-
                                  style="z-index: 6;">
-                                <img alt="" src="images/placeholder-hero_banner.png">
+                                <img class="imageBanniere" alt="" src="images/Save_Time_V1.png">
                             </div>
 
                             <!-- LAYER 4  Bold Title-->
@@ -636,7 +635,7 @@
             </div>
         </section>
 
-        <section class="p-b80 particles-js" data-color="#F24738,#F24738,#06F0C8" data-id="i2">
+        <section class="particles-js" data-color="#F24738,#F24738,#06F0C8" data-id="i2">
             <div style="display: none" class="container">
                 <div class="row">
                     <div class="col-md-12 col-xs-12">
@@ -927,7 +926,7 @@
                             </div>
                             <div class="content-box">
                                 <h5 id="videoGames">Jeux vidéos</h5>
-                                <p id="videoGamesText">Lorem ipsum dolor</p>
+                                <p id="videoGamesText">Donnez une nouvelle dimension à vos créations vidéoludique.</p>
                             </div>
                         </div>
 
@@ -1185,7 +1184,7 @@
             </div>
         </section>
 
-        <section class="home2-process particles-js bg-light" data-color="#fe4c1c,#F24738,#0160e7" data-id="i2-1">
+        <section class="home2-process particles-js bg-light" data-color="#F24738,#F24738,#06F0C8" data-id="i2-1">
             <div class="shape shape-top" data-negative="false">
                 <svg preserveAspectRatio="none" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
                     <path class="shape-fill"
@@ -1428,6 +1427,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget">
+                            <h5>NoName Virtual</h5>
                             <ul class="ft-menu-list">
                                 <li class="ft-menu-item">
                                     Place Garibaldi
@@ -1452,19 +1452,22 @@
                                     <b>NoName Visual</b>
                                 </li>
                                 <li class="ft-menu-item">
-                                    <a href="#">Commercials</a>
+                                    <a href="https://nonamevisual.com/" target="_blank">Home</a>
                                 </li>
                                 <li class="ft-menu-item">
-                                    <a href="#">Music video</a>
+                                    <a href="https://nonamevisual.com/visual/" target="_blank">Visual</a>
                                 </li>
                                 <li class="ft-menu-item">
-                                    <a href="#">Production exécutive</a>
+                                    <a href="https://nonamevisual.com/clip-video/" target="_blank">Music video</a>
                                 </li>
                                 <li class="ft-menu-item">
-                                    <a href="#">Commercials</a>
+                                    <a href="https://nonamevisual.com/production-executive/" target="_blank">Production exécutive</a>
                                 </li>
                                 <li class="ft-menu-item">
-                                    <a href="#">NoName Corp - Agency</a>
+                                    <a href="https://nonamevisual.com/commercial/" target="_blank">Commercials</a>
+                                </li>
+                                <li class="ft-menu-item">
+                                    <a href="https://nonamevisual.com/communication/" target="_blank">NoName Corp - Agency</a>
                                 </li>
                             </ul>
                         </div>
@@ -1486,15 +1489,17 @@
                                     <a href="#">Blog</a>
                                 </li>
                             </ul>
-                            <!-- social icons -->
+                        </div>
+                        <!-- social icons -->
+                        <div class="social-list-wrapper">
                             <ul class="social-list">
-                                <li><a href="#" target="_self"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#" target="_self"><i class="fab fa-tiktok"></i></a></li>
                                 <li><a href="#" target="_self"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#" target="_self"><i class="fab fa-linkedin-in"></i></a></li>
                                 <li><a href="#" target="_self"><i class="fab fa-instagram"></i></a></li>
                             </ul>
-                            <!-- social icons close -->
                         </div>
+                        <!-- social icons close -->
                     </div>
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget">
@@ -1505,7 +1510,7 @@
                                 <div class="mc4wp-form-fields">
                                     <div class="subscribe-inner-form">
                                         <label>
-                                            <input name="email" placeholder="Votre Email" required="" type="email">
+                                            <input disabled name="email" placeholder="Comming soon" required="" type="email">
                                         </label>
                                         <button class="subscribe-btn-icon" type="submit"><i class="flaticon-send"></i>
                                         </button>
@@ -1520,8 +1525,8 @@
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2 col-sm-2 col-xs-6 xs-text-center">
-                        <img alt="NoName Virtual logo" src="images/LOGO_Virtual_Transparent_V0_cropped.png">
+                    <div class="col-md-2 col-sm-2 col-xs-6 xs-text-center imageLogoBottomWrapper">
+                        <img class="imageLogoBottom" alt="NoName Virtual logo" src="images/LOGO_Virtual_Transparent_V0_cropped.png">
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-12">
                         <p id="copyrights" class="copyright-2 text-right">Copyright © 2023 NoName Virtual by NoName. Tous droits réservés.</p>

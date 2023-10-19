@@ -2758,7 +2758,7 @@ a:hover, a:active {
   flex-grow: 1;
   max-width: 100%;
   width: 100%;
-  min-height: 1px;
+  min-height: 30px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -2775,6 +2775,7 @@ a:hover, a:active {
   }
   .octf-mainbar-row > [class^=octf-col].text-right {
     justify-content: flex-end;
+    height: 60px;
   }
 }
 .octf-main-header .octf-row > div:empty {
@@ -3113,6 +3114,7 @@ a:hover, a:active {
   display: inline-flex;
   vertical-align: middle;
   position: relative;
+  background-color: rgba(27, 37, 42, 1) !important;
 }
 .octf-btn-cta .toggle_search {
   cursor: pointer;
@@ -3636,6 +3638,28 @@ a:hover, a:active {
 @media only screen and (max-width: 767px) {
   .header_mobile .mlogo_wrapper {
     height: 30px;
+  }
+
+  .social-list {
+    float: none;
+  }
+
+  .social-list-wrapper {
+    margin: auto;
+    width: fit-content;
+  }
+
+  .imageLogoBottom {
+    max-width: 100px;
+  }
+
+  .imageLogoBottomWrapper {
+    margin: auto;
+  }
+
+  .xs-text-center {
+    text-align: center;
+    width: 100%;
   }
 }
 @media only screen and (max-width: 320px) {

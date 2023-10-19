@@ -30,6 +30,7 @@
     border: none !important;
     color: white; !important;
     width: 100vw;
+    min-height: 60px;
 }
 
 .NNVlogo {
@@ -44,7 +45,7 @@
 }
 
 .logo-static {
-    margin-top: 15px;
+    margin-top: 12px;
 }
 
 .team-thumb-img {
@@ -77,6 +78,10 @@
     mask-image: url("images/Donut_1.png");
 }
 
+.imageBanniere {
+    height: 100vh !important;
+}
+
 /*
 *
 *
@@ -86,6 +91,10 @@ styles.css overrides
 *
 *
  */
+
+.mmenu_wrapper {
+    float: right;
+}
 
 .innerCtabutton {
     margin: auto;
@@ -117,7 +126,7 @@ h4 {
 
     .header_mobile > .container
     {
-        height: 75px;
+        min-height: 75px;
     }
 }
 
