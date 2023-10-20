@@ -1,6 +1,18 @@
 (function( $ ) {
     "use strict";
 
+    const tooltipWrapper = document.querySelector('.tooltip-wrapper');
+
+    tooltipWrapper.addEventListener('mouseover', () => {
+        const tooltip = tooltipWrapper.querySelector('.tooltip');
+        tooltip.style.bottom = "100%";
+    });
+
+    tooltipWrapper.addEventListener('mouseout', () => {
+        const tooltip = tooltipWrapper.querySelector('.tooltip');
+        tooltip.style.bottom = "120%";
+    });
+
     $(document).ready(function(){
         var lastScrollTop = 0;
 
@@ -443,16 +455,19 @@
         var swt = $('.real-numbers').find('.switch input');
         swt.on( 'change', function() {
             var parent = $(this).parents('.real-numbers');
+            var parentWallet = $(this).parents('.walletSelector');
             if(this.checked) {
                 parent.find('.a-switch').addClass('active');
                 parent.find('.b-switch').removeClass('active');
                 parent.find('h2.after').fadeIn();
                 parent.find('h2.before').hide();
+                parent.find('.emptyWalletMoney').addClass('emptyWalletMoneyActive');
             }else{
                 parent.find('.b-switch').addClass('active');
                 parent.find('.a-switch').removeClass('active');
                 parent.find('h2.after').hide();
                 parent.find('h2.before').fadeIn();
+                parent.find('.emptyWalletMoney').removeClass('emptyWalletMoneyActive');
             }
         });
     });

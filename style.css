@@ -7187,7 +7187,7 @@ object {
   -o-transition: all 0.3s linear;
   -ms-transition: all 0.3s linear;
   transition: all 0.3s linear;
-  padding: 70px 30px 165px;
+  padding: 70px 30px 0px;
   position: relative;
   background: #fff;
 }

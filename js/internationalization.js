@@ -55,6 +55,7 @@ function updateTranslations() {
     document.getElementById('beforeAfterStat1').innerText = i18n.t('beforeAfterStat1');
     document.getElementById('beforeAfterStat2').innerText = i18n.t('beforeAfterStat2');
     document.getElementById('beforeAfterStat3').innerText = i18n.t('beforeAfterStat3');
+    document.getElementById('estimatedShooting').innerText = i18n.t('estimatedShooting');
     document.getElementById('ourExpertises').innerText = i18n.t('ourExpertises');
     document.getElementById('expertisesTitle').innerText = i18n.t('expertisesTitle');
     document.getElementById('expertisesText').innerText = i18n.t('expertisesText');

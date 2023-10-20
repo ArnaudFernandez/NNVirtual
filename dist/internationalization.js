@@ -53,6 +53,7 @@ function updateTranslations() {
   document.getElementById('beforeAfterStat1').innerText = _i18next["default"].t('beforeAfterStat1');
   document.getElementById('beforeAfterStat2').innerText = _i18next["default"].t('beforeAfterStat2');
   document.getElementById('beforeAfterStat3').innerText = _i18next["default"].t('beforeAfterStat3');
+  document.getElementById('estimatedShooting').innerText = _i18next["default"].t('estimatedShooting');
   document.getElementById('ourExpertises').innerText = _i18next["default"].t('ourExpertises');
   document.getElementById('expertisesTitle').innerText = _i18next["default"].t('expertisesTitle');
   document.getElementById('expertisesText').innerText = _i18next["default"].t('expertisesText');

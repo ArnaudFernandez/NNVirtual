@@ -3,6 +3,21 @@
 (function ($) {
   "use strict";
 
+  $(document).ready(function () {
+    var lastScrollTop = 0;
+    $(window).scroll(function () {
+      var currentScrollTop = $(this).scrollTop();
+      if (currentScrollTop > lastScrollTop) {
+        // L'utilisateur fait défiler vers le bas
+        $('.top-bar').fadeOut(500); // 500 millisecondes pour un fondu complet
+      } else {
+        // L'utilisateur fait défiler vers le haut
+        $('.top-bar').fadeIn(500); // 500 millisecondes pour un fondu complet
+      }
+
+      lastScrollTop = currentScrollTop;
+    });
+  });
   $('.woocommerce-form-coupon-toggle .showcoupon').on("click", function () {
     $(this).toggleClass("active");
     if ($(this).hasClass("active")) {
