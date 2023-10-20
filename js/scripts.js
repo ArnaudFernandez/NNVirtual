@@ -462,12 +462,18 @@
                 parent.find('h2.after').fadeIn();
                 parent.find('h2.before').hide();
                 parent.find('.emptyWalletMoney').addClass('emptyWalletMoneyActive');
+                parent.find('.cloud1').addClass('cloud1Active');
+                parent.find('.cloud2').addClass('cloud2Active');
+                parent.find('.planet').addClass('planetActive')
             }else{
                 parent.find('.b-switch').addClass('active');
                 parent.find('.a-switch').removeClass('active');
                 parent.find('h2.after').hide();
                 parent.find('h2.before').fadeIn();
                 parent.find('.emptyWalletMoney').removeClass('emptyWalletMoneyActive');
+                parent.find('.cloud1').removeClass('cloud1Active');
+                parent.find('.cloud2').removeClass('cloud2Active');
+                parent.find('.planet').removeClass('planetActive')
             }
         });
     });

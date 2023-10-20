@@ -158,8 +158,76 @@
     transition-duration: 1s;
 }
 
+
+
 .emptyWalletMoneyActive {
     transform: translateX(50%) rotate(-60deg);
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.planet {
+    position: relative;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    background-image: url("/images/planet_v1.png");
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 60px;
+    overflow: hidden;
+    z-index: 1;
+    transition-duration: 1s;
+}
+
+.planetActive {
+    background-position-y: -10px;
+    transition-duration: 1s;
+    background-size: 200px;
+}
+
+.cloud1 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-image: url("/images/cloud_v1.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform-origin: top left;
+    transition-duration: 1s;
+    top: 0;
+    right: 50%;
+    transform: translate(30%, 105%);
+    z-index: 2;
+}
+
+.cloud1Active {
+    transform: translate(0%, 105%);
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+.cloud2 {
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-image: url("/images/cloud_reverse_v1.png");
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+    top: 0;
+    right: 50%;
+    transform: translate(70%, 90%);
+    z-index: 3;
+}
+
+.cloud2Active {
+    transform: translate(100%, 90%);
     opacity: 0;
     transition-duration: 1s;
 }
