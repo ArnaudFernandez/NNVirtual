@@ -2216,7 +2216,6 @@ td {
   box-shadow: 8px 8px 18px 0 rgba(254, 76, 28, 0.3);
   -webkit-box-shadow: 8px 8px 18px 0 rgba(254, 76, 28, 0.3);
   -moz-box-shadow: 8px 8px 18px 0 rgba(254, 76, 28, 0.3);
-  display: inline-flex;
 }
 .ctaPrimaryBg:hover, .ctaPrimaryBg:focus {
   box-shadow: none;
@@ -2463,7 +2462,8 @@ a:visited {
   color: #F24738;
 }
 a:hover, a:focus, a:active {
-  color: #fe4c1c;
+  color: #FFF;
+  text-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
   text-decoration: none;
 }
 a:focus {
@@ -5289,7 +5289,7 @@ object {
   margin-bottom: 25px;
 }
 .ot-heading.text-light h6:before, .ot-heading.text-light h6:after {
-  background: #F24738;
+  background: #ffffff;
 }
 .ot-heading.left-align h6:after {
   display: none;
@@ -5363,7 +5363,7 @@ object {
   color: #fff;
 }
 .contact-info.text-light h6, .contact-info.text-light i {
-  color: #61daff;
+  color: #e1e1e1;
 }
 .contact-info.box-style2 {
   width: 100%;
@@ -5371,7 +5371,7 @@ object {
 .contact-info.text-light h6 {
   font-family: "Red Hat Display", Sans-serif, serif;
   font-size: 18px;
-  color: #9ee8ff;
+  color: #e1e1e1;
   font-weight: 400;
   text-transform: none;
 }
@@ -7190,7 +7190,33 @@ object {
   padding: 70px 30px 0px;
   position: relative;
   background: #fff;
+
 }
+
+.real-numbers .chart-boxs .chart-item-bg-1
+{
+  background-image: url(images/top-price1.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 40%;
+}
+
+.real-numbers .chart-boxs .chart-item-bg-2
+{
+  background-image: url(images/top-price2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 40%;
+}
+
+.real-numbers .chart-boxs .chart-item-bg-3
+{
+  background-image: url(images/top-price3.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 40%;
+}
+
 .real-numbers .chart-boxs .chart-item h2 {
   margin-bottom: 10px;
   color: #F24738;
@@ -8572,6 +8598,7 @@ img {
     background-image: url(images/bot-price1.png);
     background-position: bottom left;
 }
+
 .ot-pricing-table.s2:before {
     background-image: url(images/top-price2.png);
     background-position: top center;
@@ -11115,11 +11142,11 @@ div.tp-bullets{
 }/* Contact */
 .our-contact {
     padding: 60px;
-    background-image: linear-gradient(145deg,#0039e4 0%,#04dbf1 100%);
-    border-radius: 15px;
+    background-image: linear-gradient(145deg,#F24738 0%,#F37066 100%);
+  border-radius: 15px;
     margin-right: 30px;
     margin-left: 30px;
-    box-shadow: 18px 18px 40px 0 rgba(2,156,236,.3);
+    box-shadow: 18px 18px 40px 0 rgba(242,71,56,.3);
 }
 .our-contact .contact-info h6 {
     font-size: 16px;

@@ -1,3 +1,11 @@
+
+@font-face {
+    font-family: "Brainstorm";
+    src: url("../fonts/BT-Brainstorm-Marker.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
 .ctaButtonSliderOverride {
     font-size: 20px !important;
 }
