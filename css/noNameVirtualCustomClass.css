@@ -166,6 +166,42 @@
     transition-duration: 1s;
 }
 
+.stopwatch {
+    position: relative;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    background-image: url("/images/Watch_V1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 2;
+    transform: translateY(20px)
+}
+
+.stopwatchPointer {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    width: 180px;
+    height: 180px;
+    background-image: url("/images/Aiguille_V1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    z-index: 2;
+    transition-duration: 1s;
+}
+
+.stopwatchPointerActive {
+    transform-origin: center;
+    transform: rotate(-90deg);
+    transition-duration: 1s;
+}
+
 
 
 .emptyWalletMoneyActive {
