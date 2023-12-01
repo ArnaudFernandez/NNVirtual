@@ -142,7 +142,7 @@
     left: 0;
     width: 180px;
     height: 180px;
-    background-image: url("/images/empty_wallet.png");
+    background-image: url("../images/empty_wallet.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: 40px;
@@ -154,7 +154,7 @@
     position: absolute;
     width: 180px;
     height: 180px;
-    background-image: url("/images/empty_wallet_money_v1-1.png");
+    background-image: url("../images/empty_wallet_money_v1-1.png");
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@
     left: 0;
     width: 180px;
     height: 180px;
-    background-image: url("/images/Watch_V1.png");
+    background-image: url("../images/Watch_V1.png");
     background-size: contain;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -188,7 +188,7 @@
     left: 0;
     width: 180px;
     height: 180px;
-    background-image: url("/images/Aiguille_V1.png");
+    background-image: url("../images/Aiguille_V1.png");
     background-size: contain;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -217,7 +217,7 @@
     left: 0;
     width: 180px;
     height: 180px;
-    background-image: url("/images/planet_v1.png");
+    background-image: url("../images/planet_v1.png");
     background-size: 180px;
     background-repeat: no-repeat;
     background-position: center;
@@ -237,7 +237,7 @@
     position: absolute;
     width: 180px;
     height: 180px;
-    background-image: url("/images/cloud_v1.png");
+    background-image: url("../images/cloud_v1.png");
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@
     position: absolute;
     width: 180px;
     height: 180px;
-    background-image: url("/images/cloud_reverse_v1.png");
+    background-image: url("../images/cloud_reverse_v1.png");
     background-position: bottom;
     background-size: contain;
     background-repeat: no-repeat;

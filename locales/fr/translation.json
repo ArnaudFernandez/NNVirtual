@@ -113,5 +113,14 @@
   "legals": "Mentions légales",
   "confidentiality": "Politique de confidentialité",
   "newsletterText": "Restez au courant de nos dernières actualités.",
-  "copyrights": "Copyright © 2023 NoName Virtual by NoName. Tous droits réservés."
+  "copyrights": "Copyright © 2023 NoName Virtual by NoName. Tous droits réservés.",
+  "contactDetailTitle" : "Détails de contact",
+  "contactUsText": "Nous contacter ",
+  "contactUsExplain": "Contactez-nous quand vous le voulez, nous vous répondrons dans les\nmeilleurs délais et nous serons heureux de répondre à toutes vos questions.",
+  "ourAdress": "Notre adresse:",
+  "ourEmail": "Notre e-mail:",
+  "ourPhoneNumber": "Notre numéro de téléphone:",
+  "stayInTouch": "Restons en contact",
+  "readyToLaunch": "Prêt à vous lancer ?",
+  "sendText": "Envoyer"
 }

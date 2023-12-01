@@ -5477,8 +5477,16 @@ object {
   color: #3292ff;
 }
 
+.linkedin-social {
+  background: #3292ff !important;
+}
+
 .footer-social-icon.instagram {
   color: #ff970f;
+}
+
+.instagram-social {
+  background: #ff970f !important;
 }
 
 .footer-social-icon i, .footer-social-icon svg {
@@ -6197,9 +6205,9 @@ object {
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
-  box-shadow: 5px 5px 18px 0 rgba(21, 183, 236, 0.3);
-  -webkit-box-shadow: 5px 5px 18px 0 rgba(21, 183, 236, 0.3);
-  -moz-box-shadow: 5px 5px 18px 0 rgba(21, 183, 236, 0.3);
+  box-shadow: 5px 5px 18px 0 rgba(255, 64, 62, 0.3);
+  -webkit-box-shadow: 5px 5px 18px 0 rgba(255, 64, 62, 0.3);
+  -moz-box-shadow: 5px 5px 18px 0 rgba(255, 64, 62, 0.3);
 }
 .team-wrap .team-social a:hover, .team-wrap .team-social span:hover {
   box-shadow: none;
@@ -11170,6 +11178,7 @@ div.tp-bullets{
 }
 .map {
     filter: brightness(100%) contrast(100%) saturate(50%) blur(0px) hue-rotate(0deg);
+    margin-bottom: 50px;
 }
 .map iframe {
     margin-top: -40px;
@@ -11190,7 +11199,7 @@ div.tp-bullets{
     max-width: 80px;
 }
 .blog-grid {
-    overflow: auto!important;
+    overflow: hidden !important;
 }
 .sl-icon svg {
     fill: currentColor;

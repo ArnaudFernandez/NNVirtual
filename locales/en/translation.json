@@ -113,5 +113,14 @@
   "legals": "Legal Notice",
   "confidentiality": "Privacy Policy",
   "newsletterText": "Stay updated with our latest news.",
-  "copyrights": "Copyright © 2023 NoName Virtual by NoName. All rights reserved."
+  "copyrights": "Copyright © 2023 NoName Virtual by NoName. All rights reserved.",
+  "contactDetailTitle": "Contact Details",
+  "contactUsText": "Contact Us",
+  "contactUsExplain": "Contact us whenever you like, we will respond as soon as possible and we will be happy to answer all your questions.",
+  "ourAdress": "Our Address:",
+  "ourEmail": "Our Email:",
+  "ourPhoneNumber": "Our Phone Number:",
+  "stayInTouch": "Stay in Touch",
+  "readyToLaunch": "Ready to Launch?",
+  "sendText": "Send"
 }
