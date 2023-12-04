@@ -9,7 +9,7 @@
                         <!-- logo start -->
                         <div class="octf-col NNVlogo">
                             <div class="NNVlogo">
-                                <a href="<?php echo $basePath ?>/index.php">
+                                <a href="<?php echo $basePath ?>index.php">
                                     <img alt="NoName Virtual" class="logo-static" src="<?php echo $basePath ?>images/LOGO_Virtual_Transparent_V0_cropped.png">
                                 </a>
                             </div>

@@ -93,7 +93,7 @@
                                         </span>
                                     </p>
                                     <p>
-                                        <button id="sendText" type="submit" class="octf-btn ctaPrimaryBg octf-btn-icon">Envoyer <i class="flaticon-right-arrow-1"></i></button>
+                                        <button id="sendText" type="submit" class="octf-btn ctaPrimaryBg octf-btn-icon nopad">Envoyer <i class="flaticon-right-arrow-1"></i></button>
                                     </p>
                                 </form>
                             </div>

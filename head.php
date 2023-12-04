@@ -24,4 +24,15 @@
     <link rel="icon" href="<?php echo $basePath ?>images/Logo%20entete%20site.webp" sizes="192x192" />
     <link rel="apple-touch-icon" href="<?php echo $basePath ?>images/Logo%20entete%20site.webp" />
     <meta name="msapplication-TileImage" content="<?php echo $basePath ?>images/Logo%20entete%20site.webp" />
+    <meta
+            name="description"
+            content="Nous produisons des contenus en production virtuelle qui vous démarquent de la concurrence et vous placent au rang des marques les plus prestigieuses.
+             Découvrir nos offres flexibles et adapté à vos besoins, émissions en direct, clips vidéos, livestreaming, publicités, créez des visuels époustouflants grâce à la puissance de la production virtuelle !"
+    />
+    <meta property="og:title" content="No Name Virtual" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://example.com/image.jpg" />
+    <meta property="og:url" content="http://example.com/page.html" />
+    <meta property="og:description" content="Description de votre page" />
+
 </head>
