@@ -276,6 +276,10 @@
     transition-duration: 1s;
 }
 
+.author_circle_image {
+    width: 150px;
+}
+
 /*
 *
 *

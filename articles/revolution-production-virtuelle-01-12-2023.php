@@ -1,3 +1,4 @@
+<?php $basePath = '/NNVirtual/'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,17 +9,17 @@
         <?php include '../header.php' ?>
 
         <div id="content" class="site-content">
-            <div class="single-page-header post-box" style="background-image: url(https://via.placeholder.com/1920x600.png);">
+            <div class="single-page-header post-box" style="background-image: url('<?php echo $basePath ?>images/banniere_noname.jpg'); background-position: center">
                 <div class="single-bg-overlay"></div>
                 <div class="sing-page-header-content">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="post-cat">
-                                    <span class="posted-in"> <a disabled="" href="">Production virtuelle</a></span>
+                                    <span class="posted-in"> <a disabled="" href="" id="virtualProduction">Production virtuelle</a></span>
                                 </div>
                                 <div class="entry-header">
-                                    <h1 class="entry-title">La révolution virtuelle</h1>
+                                    <h1 class="entry-title" id="titleArticleRevolutionVirtuelle">La révolution virtuelle</h1>
                                         <div class="entry-meta">
                                             <span class="byline"><a class="url fn n" href="#"><i class="flaticon-user"></i> Arnaud FERNANDEZ</a></span>
                                             <span class="posted-on">
@@ -39,206 +40,105 @@
                             <article class="post-box blog-post">
                                 <div class="single-post-inner">
                                     <div class="entry-media">
-                                        <img src="https://via.placeholder.com/870x520.png" alt="">
+                                        <img src="<?php echo $basePath ?>images/revolution-production-virtuelle/Révolution_Virtuelle_Cover.jpg"
+                                             alt="Révolution virtuelle">
                                     </div>
                                 </div>
                                 <div class="inner-post no-padding-top">
                                     <div class="entry-summary">
-                                        <p><span class="drop-cap"><span class="drop-cap-letter">O</span></span> One of the principal decisions that startup owners have to make is whether or not to engage in SEO. One common consideration is the cost of investing in an SEO campaign versus possible returns. Another is the daunting list of SEO terminologies, which may overwhelm newcomers to the e-commerce and website scene. If you are a new online entrepreneur but are not convinced of the benefits of SEO, then this article is for you! Here are some of the reasons why SEO is important and why you should consider it as a marketing technique. <span class="text-dark medium">SEO is less expensive than other online marketing approaches.</span> It also offers higher reward rates when compared to other techniques such as social media marketing, pay per click advertising, and email marketing. While you may need to defray a substantial amount to cover initial SEO planning and processes that include website design, programming, and strategizing, you can be sure to get faster and more long-term results.</p>
-                                        <blockquote><p>“I cannot give you the formula for success, but I can give you the formula for failure. It is: Try to please everybody.”<br>
-                                            <cite>– Herbert Bayard Swope</cite></p>
+                                        <p id="firstParagraphRevolutionVirtuelle">
+                                            La révolution dans la production audiovisuelle virtuelle marque un tournant
+                                            décisif dans l'industrie du divertissement et de la communication. Cette
+                                            évolution, qui s'est accélérée au cours des dernières décennies, a
+                                            transformé radicalement notre façon de créer, de consommer et d'interagir
+                                            avec le contenu médiatique. Dans cet article, nous explorerons les divers
+                                            aspects de cette révolution et comment elle façonne
+                                            l'avenir de la production audiovisuelle.
+                                        </p>
+                                        <blockquote>
+                                            <p id="firstQuoteRevolutionVirtuelle">“Une fois qu'une nouvelle technologie vous a renversé, si vous n'en
+                                                faites pas partie, vous faites partie de la route.“
+                                            </p><cite>– Stewart Brand</cite>
                                         </blockquote>
-                                        <p>Implementing SEO strategies help you to rank higher on the search engine’s results page (SERP). This means that when your target customers search for products and services that your industry offers, they are <span class="text-primary">likely to find your website.</span> When you repeatedly appear on the SERP, users become aware of your site and your business. This increases the chances of landing potential customers on your webpages.</p>
+
                                         <div class="gaps">&nbsp;</div>
-                                        <p><img src="https://via.placeholder.com/870x270.png"></p>
+                                        <p>
+                                            <img
+                                                    src="<?php echo $basePath ?>images/revolution-production-virtuelle/1-Emergence_Production_Virtuelle.jpg"
+                                                    alt="Emergence production virtuelle"
+                                            >
+                                        </p>
                                         <div class="gaps">&nbsp;</div>
-                                        <h4>SEO is a Cost-Effective Advertising Strategy</h4>
-                                        <p>One SEO component called off-site SEO ensures that users of external pages or of social media can find your website. Being optimized for SEO increases the site’s potential to draw customers from other platforms other than the search engine. For instance, when you post content and links to your page on Facebook or Twitter, you are able to promote your website and attract more customers. One of the main goals of SEO is to attract the targeted audience through organic searches. The number of visitors to your site influences <a class="underline" href="#">your sales and subscriptions.</a> It also promotes the marketing of your products and services. Increased inbound traffic is always good for business because it equates to more conversion opportunities.</p>
-                                        <p>Some SEO-related tools such as the Google Keyword Planner and Google Analytics provide quantitative data to help you understand your market, analyze the trends, and know your competitors’ standings. It helps you identify popular and valuable keywords so you can decide how to <span class="text-dark medium">structure or revise your content.</span> It also gives you insights on your market’s behavior such as location, times of activity, frequency of searches, technologies used, product preferences, etc. All these metrics are useful in helping you get to know your audience, their needs, and their expectations.</p>
-                                    </div>
-                                    <div class="entry-footer clearfix">
-                                        <div class="tagcloud">
-                                            <a href="#">business</a>
-                                            <a href="#">marketing</a>
-                                            <a href="#">SEO</a>
-                                        </div>
-                                        <div class="share-post">
-                                            <a class="twit" target="_blank" href="#" title="Twitter"><i class="fab fa-twitter"></i>Twitter</a>
-                                            <a class="face" target="_blank" href="#" title="Facebook"><i class="fab fa-facebook-f"></i>Facebook</a>
-                                            <a class="pint" target="_blank" href="#"><i class="fab fa-pinterest-p"></i>Pinterest</a>
-                                            <a class="linked" target="_blank" href="#"><i class="fab fa-linkedin-in"></i>LinkedIn</a>
-                                        </div>
-                                    </div>
-                                    <div class="author-bio">
-                                        <div class="author-image">
-                                            <img src="https://via.placeholder.com/250x250.png" alt="Tom Black" class="avatar avatar-250 wp-user-avatar wp-user-avatar-250 alignnone photo">
-                                        </div>
-                                        <div class="author-info">
-                                            <p class="title text-primary font-second">Author</p><h6>Tom Black</h6>
-                                            <p class="des">He is attended the State University of New York at Oswego where he majored in English Literature and Creative Writing.</p>
-                                            <div class="author-socials">
-                                                <a href="twitter.com" target="_blank" rel="nofollow" title="Twitter" class="tooltip"><i class="fab fa-twitter"></i> </a>
-                                                <a href="facebook.com" target="_blank" rel="nofollow" title="Facebook" class="tooltip"><i class="fab fa-facebook-f"></i> </a>
-                                                <a href="linkedin.com" target="_blank" rel="nofollow" title="LinkedIn" class="tooltip"><i class="fab fa-linkedin-in"></i> </a>
-                                                <a href="instagram.com" target="_blank" rel="nofollow" title="Instagram" class="tooltip"><i class="fab fa-instagram"></i> </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="post-nav clearfix">
-                                        <div class="post-prev"><a href="#"><span class="flaticon-arrow-pointing-to-left"></span>Previous</a></div>
-                                        <div class="post-next"><a href="#">Next<span class="flaticon-arrow-pointing-to-right"></span></a></div>
-                                    </div>
-                                    <div class="related-posts">
-                                        <h2>Related Posts</h2>
-                                        <div class="row">
-                                            <div class="col-md-6">
-                                                <div class="post-box post-item">
-                                                    <div class="post-inner">
-                                                        <div class="entry-media">
-                                                            <div class="post-cat">
-                                                                <span class="posted-in">
-                                                                    <a href="#">Marketing</a>
-                                                                    <a href="#"">SEO</a>
-                                                                </span>
-                                                            </div>
-                                                            <a href="#"><img src="https://via.placeholder.com/420x280.png" alt=""></a>
-                                                        </div>
-                                                        <div class="inner-post">
-                                                            <div class="entry-header">
-                                                                <div class="entry-meta">
-                                                                    <span class="byline">
-                                                                        <a class="url fn n" href="#"><i class="flaticon-user"></i> Tom Black</a>
-                                                                    </span>
-                                                                    <span class="posted-on">
-                                                                        <a href="#"><i class="flaticon-clock"></i>
-                                                                            <time class="entry-date published">November 21, 2019</time>
-                                                                        </a>
-                                                                    </span>
-                                                                </div>
-                                                            <h4 class="entry-title"><a href="#">15 SEO Best Practices:  Website Architecture</a></h4>
-                                                            </div><!-- .entry-header -->
-                                                            <div class="the-excerpt">The basic premise of search engine reputation management is to use the following three...</div><!-- .entry-content -->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="post-box post-item">
-                                                    <div class="post-inner">
-                                                        <div class="entry-media">
-                                                            <div class="post-cat">
-                                                                <span class="posted-in">
-                                                                    <a href="#">Marketing</a>
-                                                                </span>
-                                                            </div>
-                                                            <a href="#"><img src="https://via.placeholder.com/420x280.png" alt=""></a>
-                                                        </div>
-                                                        <div class="inner-post">
-                                                            <div class="entry-header">
-                                                                <div class="entry-meta">
-                                                                    <span class="byline">
-                                                                        <a class="url fn n" href="#"><i class="flaticon-user"></i> Tom Black</a>
-                                                                    </span>
-                                                                    <span class="posted-on">
-                                                                        <a href="#"><i class="flaticon-clock"></i>
-                                                                            <time class="entry-date published">September 24, 2019</time>
-                                                                        </a>
-                                                                    </span>
-                                                                </div>
-                                                            <h4 class="entry-title"><a href="#">A Guide to Google SEO Algorithm Updates</a></h4>
-                                                            </div><!-- .entry-header -->
-                                                            <div class="the-excerpt">The basic premise of search engine reputation management is to use the following three...</div><!-- .entry-content -->
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+
+                                        <h4 class="articleSubtitle" id="secondTitleRevolutionVirtuelle">L'Émergence de la Production Virtuelle</h4>
+
+                                        <p id="secondParagraphRevolutionVirtuelle">
+                                            L'ère numérique a introduit des outils de production virtuelle
+                                            révolutionnaires. Le montage vidéo, autrefois limité à des techniques
+                                            physiques, est maintenant dominé par des logiciels avancés permettant des
+                                            modifications complexes et des effets spéciaux époustouflants. La réalité
+                                            virtuelle (RV) et la réalité augmentée (RA) ont ouvert de nouvelles voies,
+                                            permettant aux créateurs de plonger les spectateurs dans des expériences immersives.
+                                        </p>
+
+                                        <div class="gaps">&nbsp;</div>
+                                        <p>
+                                            <img
+                                                    src="<?php echo $basePath ?>images/revolution-production-virtuelle/2-Avancees_Technologiques.jpg"
+                                                    alt="Avancées technologiques"
+                                            >
+                                        </p>
+                                        <div class="gaps">&nbsp;</div>
+
+                                        <h4 class="articleSubtitle" id="thirdTitleRevolutionVirtuelle">Les Avancées Technologiques</h4>
+
+                                        <p id="thirdParagraphRevolutionVirtuelle">Les technologies comme la capture de mouvement et les fonds verts ont
+                                            bouleversé la production cinématographique. Ces outils permettent une
+                                            intégration fluide des effets spéciaux, rendant les mondes fantastiques
+                                            plus réalistes que jamais. De plus, l'émergence de l'intelligence
+                                            artificielle dans le processus de montage offre des possibilités inédites
+                                            en termes de personnalisation et d'efficacité.
+                                        </p>
+                                        <div class="gaps">&nbsp;</div>
+                                        <p>
+                                            <img
+                                                    src="<?php echo $basePath ?>images/revolution-production-virtuelle/3-Impact_Industrie_Audiovisuelle.jpg"
+                                                    alt="Impact sur l'industrie audiovisuelle"
+                                            >
+                                        </p>
+                                        <div class="gaps">&nbsp;</div>
+
+                                        <h4 class="articleSubtitle" id="fourthTitleRevolutionVirtuelle">L'Impact sur l'Industrie Cinématographique</h4>
+
+                                        <p id="fourthParagraphRevolutionVirtuelle">La production virtuelle a radicalement changé le cinéma. Des films comme
+                                            "Avatar" et les dernières productions Marvel illustrent comment les
+                                            techniques virtuelles peuvent créer des univers qui étaient inimaginables
+                                            il y a quelques décennies. Ces outils ont également rendu la production
+                                            plus accessible, permettant aux cinéastes indépendants de réaliser des
+                                            œuvres qui rivalisent avec les productions à gros budget.
+                                        </p>
+
+                                        <div class="gaps">&nbsp;</div>
+                                        <p>
+                                            <img
+                                                    src="<?php echo $basePath ?>images/revolution-production-virtuelle/4-Avenir_Production_Virtuelle.jpg"
+                                                    alt="Avenir de production virtuelle"
+                                            >
+                                        </p>
+                                        <div class="gaps">&nbsp;</div>
+
+                                        <h4 class="articleSubtitle" id="fifthTitleRevolutionVirtuelle">L'Avenir de la Production Virtuelle</h4>
+
+                                        <p id="fifthParagraphRevolutionVirtuelle">L'avenir de la production virtuelle est prometteur. Avec l'évolution
+                                            constante des technologies et l'augmentation de leur accessibilité,
+                                            nous pouvons nous attendre à voir des innovations encore plus
+                                            impressionnantes. Des domaines comme la réalité mixte et l'intégration
+                                            d'intelligence artificielle continueront de repousser les frontières de ce
+                                            qui est possible dans la création audiovisuelle.
+                                        </p>
                                     </div>
                                 </div>
                             </article>
-                            <div id="comments" class="comments-area">
-                                <h2 class="comments-title">Comments (3)</h2>
-                                <ol class="comment-list">
-                                    <li id="comment-16" class="comment-item">
-                                        <article class="comment-wrap clearfix">
-                                            <div class="gravatar">
-                                                <img src="https://via.placeholder.com/80x80.png" alt="Pablo Villalpando" class="">
-                                            </div>
-                                            <div class="comment-content">
-                                                <div class="comment-meta">
-                                                    <h6 class="comment-author">Pablo Villalpando</h6>
-                                                    <span class="comment-time">December 9, 2019</span>
-                                                    <a rel="nofollow" class="comment-reply-link" href="#">Reply</a>
-                                                </div>
-                                                <div class="comment-text">
-                                                    <p>SEO is always changing so leaving the strategy and tactics to Onum has more than paid for itself. We estimate ROI is over 10 to 1 – I can’t say enough about this team.</p>
-                                                </div>
-                                            </div>
-                                        </article>
-                                    </li>
-                                    <ul class="children">
-                                        <li id="comment-17" class="comment-item">
-                                            <article class="comment-wrap clearfix">
-                                                <div class="gravatar">
-                                                    <img src="https://via.placeholder.com/80x80.png" alt="Pablo Villalpando" class="">
-                                                </div>
-                                                <div class="comment-content">
-                                                    <div class="comment-meta">
-                                                        <h6 class="comment-author">Pablo Villalpando</h6>
-                                                        <span class="comment-time">December 9, 2019</span>
-                                                        <a class="comment-reply-link" href="#">Reply</a>
-                                                    </div>
-                                                    <div class="comment-text">
-                                                        <p>Onum has been extremely consistent and reliable through our entire engagement. Our results speak for themselves.</p>
-                                                    </div>
-                                                </div>
-
-                                            </article>
-                                        </li>
-                                            <!-- #comment-## -->
-                                    </ul>
-                                    <li id="comment-18" class="comment-item">
-                                        <article class="comment-wrap clearfix">
-                                            <div class="gravatar">
-                                                <img src="https://via.placeholder.com/80x80.png" alt="Pablo Villalpando">
-                                            </div>
-                                            <div class="comment-content">
-                                                <div class="comment-meta">
-                                                    <h6 class="comment-author">Pablo Villalpando</h6>
-                                                    <span class="comment-time">December 9, 2019</span>
-                                                    <a class="comment-reply-link" href="#">Reply</a>
-                                                </div>
-                                                <div class="comment-text">
-                                                    <p>It also gives you insights on your market’s behavior such as location, times of activity, frequency of searches, technologies used, product preferences, etc.</p>
-                                                </div>
-                                            </div>
-
-                                        </article>
-                                    </li>
-                                </ol>
-                                <div id="respond" class="comment-respond">
-                                    <h3 id="reply-title" class="comment-reply-title">Leave a comment</h3>
-                                    <form action="" method="post" id="commentform" class="comment-form">
-                                        <p class="comment-form-website">
-                                            <input id="website" name="website" type="text" value="" size="30" placeholder="Website">
-                                        </p>
-                                        <div class="row">
-                                            <p class="comment-form-author col-md-6">
-                                                <input id="author" name="author" type="text" value="" size="30" placeholder="Name *" required="">
-                                            </p>
-                                            <p class="comment-form-email col-md-6">
-                                                <input id="email" name="email" type="text" value="" size="30" placeholder="Email *" required="">
-                                            </p>
-                                        </div>
-                                        <p class="comment-form-comment">
-                                            <textarea id="comment" name="comment" cols="45" rows="4" placeholder="Comment*" required=""></textarea>
-                                        </p>
-                                        <p class="form-submit">
-                                            <input name="submit" type="submit" id="submit" class="octf-btn octf-btn-secondary" value="Post Comment">
-                                        </p>
-                                    </form>
-                                </div>
-                            </div>
                         </div>
 
                         <?php include '../person-poster-template/arnaudF_poster.php'?>
@@ -251,15 +151,16 @@
 </div><!-- #page -->
 <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
         <!-- jQuery -->
-    <script src="../js/jquery.min.js"></script>
-    <script src="../js/slick.min.js"></script>
-    <script src="../js/jquery.magnific-popup.min.js"></script>
-    <script src="../js/jquery.isotope.min.js"></script>
-    <script src="../js/easypiechart.js"></script>
-    <script src="../js/jquery.countdown.min.js"></script>
-    <script src="../js/scripts.js"></script>
-    <script src="../js/header-mobile.js"></script>
-    <script src="../js/royal_preloader.min.js"></script>
+    <script src="<?php echo $basePath ?>js/jquery.min.js"></script>
+    <script src="<?php echo $basePath ?>js/slick.min.js"></script>
+    <script src="<?php echo $basePath ?>js/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo $basePath ?>js/jquery.isotope.min.js"></script>
+    <script src="<?php echo $basePath ?>js/easypiechart.js"></script>
+    <script src="<?php echo $basePath ?>js/jquery.countdown.min.js"></script>
+    <script src="<?php echo $basePath ?>js/scripts.js"></script>
+    <script src="<?php echo $basePath ?>js/header-mobile.js"></script>
+    <script src="<?php echo $basePath ?>js/royal_preloader.min.js"></script>
+    <script src="<?php echo $basePath ?>dist/bundle-webpack.js"></script>
 </body>
 </html>
 <script type="text/javascript">

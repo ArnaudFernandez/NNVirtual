@@ -1,3 +1,4 @@
+<?php $basePath = '/NNVirtual/'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1111,20 +1112,19 @@
                     </div>
                 </div>
                 <div class="row">
-                    <b>Aucun article pour l'instant, mais ça ne saurait tarder !</b>
-
                     <div class="col-md-12 col-xs-12">
                         <div class="blog-grid pf_3_cols">
-                            <!--article class="col-md-4 col-sm-6 col-xs-12 post-box masonry-post-item">
+                            <article class="col-md-4 col-sm-6 col-xs-12 post-box masonry-post-item">
                                 <div class="post-inner">
                                     <div class="entry-media">
                                         <div class="post-cat">
                                                 <span class="posted-in"> 
-                                                    <a disabled="" rel="category tag">Production virtuelle</a disab>
+                                                    <a disabled="" rel="category tag" id="virtualProduction">Production virtuelle</a disab>
                                                 </span>
                                         </div>
                                         <a href="articles/revolution-production-virtuelle-01-12-2023.php">
-                                            <img alt="" src="https://via.placeholder.com/370x278.png">
+                                            <img src="<?php echo $basePath ?>images/revolution-production-virtuelle/Revolution_Virtuell_Thumbnail.jpg"
+                                                 alt="Révolution virtuelle">
                                         </a>
                                     </div>
                                     <div class="inner-post">
@@ -1138,15 +1138,15 @@
                                                     </span>
                                             </div>
 
-                                            <h3 class="entry-title"><a href="articles/revolution-production-virtuelle-01-12-2023.php">La révolution virtuelle</a></h3>
+                                            <h3 class="entry-title"><a id="titleArticleRevolutionVirtuelle" href="articles/revolution-production-virtuelle-01-12-2023.php">La révolution virtuelle</a></h3>
                                         </div>
 
                                         <div class="entry-summary the-excerpt">
-                                            <p>Lorem ipsum dolor</p>
+                                            <p id="summaryArticleRevolutionVirtuelle">Avancées technologiques, impacts, avenir de la production, quels sont les enjeux ? </p>
                                         </div>
                                     </div>
                                 </div>
-                            </article -->
+                            </article>
                             <!--article class="col-md-4 col-sm-6 col-xs-12 post-box masonry-post-item">
                                 <div class="post-inner">
                                     <div class="entry-media">
@@ -1246,6 +1246,7 @@
 
 <!-- REVOLUTION SLIDER SCRIPT FILES -->
 <script src="js/rev-script-2.js"></script>
+
 <script src="dist/bundle-webpack.js"></script>
 </body>
 </html>

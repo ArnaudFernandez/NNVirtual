@@ -378,6 +378,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Red Hat Display", sans-serif;
 }
 
+h4.articleSubtitle {
+  color: #fff;
+}
+
 h1 {
   font-size: 42px;
 }
@@ -469,8 +473,8 @@ blockquote {
   font-weight: 500;
   padding: 0 30px;
   position: relative;
-  color: #1a1b1e;
 }
+
 blockquote:before {
   content: "";
   display: block;
@@ -3827,6 +3831,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .entry-content {
   padding: 72px 0 102px;
+  color: white;
 }
 
 .post-box .post-inner {
@@ -4513,7 +4518,7 @@ a:hover, a:active {
     padding: 0;
   }
   .single-page-header.post-box .sing-page-header-content .entry-title {
-    color: #1a1b1e;
+    color: #fff;
   }
   .single-page-header.post-box .sing-page-header-content .entry-meta a {
     color: #a5b7d2;
@@ -5034,16 +5039,16 @@ a:hover, a:active {
 
 .author-widget_wrapper {
   padding: 30px 26px;
-  background-color: #0039e4;
-  background-image: -moz-linear-gradient(145deg, #0039e4, #04dbf1);
-  background-image: -webkit-linear-gradient(145deg, #0039e4, #04dbf1);
-  background-image: linear-gradient(145deg, #0039e4, #04dbf1);
+  background-color: #F24738;
+  background-image: -moz-linear-gradient(145deg, #F24738, #F37066);
+  background-image: -webkit-linear-gradient(145deg, #F24738, #F37066);
+  background-image: linear-gradient(145deg, #F24738, #F37066);
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
-  box-shadow: 30px 30px 65px 0 rgba(2, 156, 236, 0.3);
-  -webkit-box-shadow: 30px 30px 65px 0 rgba(2, 156, 236, 0.3);
-  -moz-box-shadow: 30px 30px 65px 0 rgba(2, 156, 236, 0.3);
+  box-shadow: 8px 8px 20px 0 rgba(242, 71, 56, 0.3);
+  -webkit-box-shadow: 8px 8px 20px 0 rgba(242, 71, 56, 0.3);
+  -moz-box-shadow: 8px 8px 20px 0 rgba(242, 71, 56, 0.3);
 }
 .author-widget_wrapper .author-widget_image-wrapper {
   margin-bottom: 26px;
@@ -6481,6 +6486,7 @@ object {
   .ot-pricing-table {
     max-width: 370px;
     margin: auto;
+    margin-bottom: 40px;
   }
 }
 .ot-tabs .tabs-heading {
@@ -6815,9 +6821,9 @@ object {
   background-image: -moz-linear-gradient(145deg, #F24738, #F37066);
   background-image: -webkit-linear-gradient(145deg, #F24738, #F37066);
   background-image: linear-gradient(145deg, #F24738, #F37066);
-  box-shadow: 10px 10px 30px 0 rgba(2, 156, 236, 0.3);
-  -webkit-box-shadow: 10px 10px 30px 0 rgba(2, 156, 236, 0.3);
-  -moz-box-shadow: 10px 10px 30px 0 rgba(2, 156, 236, 0.3);
+  box-shadow: 10px 10px 30px 0 rgba(242, 71, 56, 0.3);
+  -webkit-box-shadow: 10px 10px 30px 0 rgba(242, 71, 56, 0.3);
+  -moz-box-shadow: 10px 10px 30px 0 rgba(242, 71, 56, 0.3);
 }
 .process-box .icon-main {
   margin-bottom: 30px;
