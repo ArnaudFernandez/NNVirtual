@@ -1,5 +1,5 @@
+<?php $basePath = '/NNVirtual/'; ?>
 <header class="site-header mainHeader top-bar" id="site-header">
-
     <!-- Main Header start -->
     <div class="octf-main-header mainHeader">
         <div class="octf-area-wrap">
@@ -9,8 +9,8 @@
                         <!-- logo start -->
                         <div class="octf-col NNVlogo">
                             <div class="NNVlogo">
-                                <a href="index.php">
-                                    <img alt="NoName Virtual" class="logo-static" src="images/LOGO_Virtual_Transparent_V0_cropped.png">
+                                <a href="<?php echo $basePath ?>/index.php">
+                                    <img alt="NoName Virtual" class="logo-static" src="<?php echo $basePath ?>images/LOGO_Virtual_Transparent_V0_cropped.png">
                                 </a>
                             </div>
                         </div>
@@ -64,7 +64,7 @@
                             <div class="octf-btn-cta">
                                 <div class="octf-header-module">
                                     <div class="btn-cta-group btn-cta-header" style="margin: 0 20px 0 0">
-                                        <a class="octf-btn octf-btn-third" href="contact-us.php">
+                                        <a class="octf-btn octf-btn-third" href="<?php echo $basePath ?>contact-us.php">
                                             <div id="ctaButton">Allons-y</div>
                                         </a>
                                     </div>
@@ -95,7 +95,7 @@
 
                 <!-- logo mobile start -->
                 <div class="mobile_logo">
-                    <a href="index.php"><img alt="NoName Virtual" src="images/LOGO_Virtual_Transparent_V0_cropped.png"></a>
+                    <a href="<?php echo $basePath ?>index.php"><img alt="NoName Virtual" src="<?php echo $basePath ?>images/LOGO_Virtual_Transparent_V0_cropped.png"></a>
                 </div>
                 <!-- logo mobile end -->
 

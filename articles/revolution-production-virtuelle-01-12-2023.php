@@ -1,32 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
-    <title>NoName Virtual</title>
-    <link href="../css/bootstrap.css" rel="stylesheet"/>
-    <link href="../css/font-awesome.css" rel="stylesheet"/>
-    <link href="../css/flaticon.css" rel="stylesheet"/>
-    <link href="../css/slick.css" rel="stylesheet">
-    <link href="../css/slick-theme.css" rel="stylesheet"/>
-    <link href="../css/magnific-popup.css" rel="stylesheet"/>
-    <link href="../style.css" rel="stylesheet"/>
-    <link href="../css/noNameVirtualCustomClass.css" rel="stylesheet"/>
-    <link href="../css/royal-preload.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <!-- REVOLUTION SLIDER CSS -->
-    <link href="../plugins/revolution/revolution/css/settings.css" rel="stylesheet" type="text/css">
-    <!-- REVOLUTION NAVIGATION STYLE -->
-    <link href="../plugins/revolution/revolution/css/navigation.css" rel="stylesheet" type="text/css">
-
-    <link href="../images/Logo%20entete%20site.webp" rel="shortcut icon" type="image/x-icon"/>
-    <link rel="icon" href="../images/Logo%20entete%20site.webp" sizes="32x32" />
-    <link rel="icon" href="../images/Logo%20entete%20site.webp" sizes="192x192" />
-    <link rel="apple-touch-icon" href="../images/Logo%20entete%20site.webp" />
-    <meta name="msapplication-TileImage" content="../images/Logo%20entete%20site.webp" />
-</head>
+<?php include '../head.php' ?>
 
 <body class="royal_preloader">
     <div id="page" class="site">
@@ -40,23 +15,15 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="post-cat">
-                                    <span class="posted-in"> <a href="#">Marketing</a> <a href="#">SEO</a></span>
+                                    <span class="posted-in"> <a disabled="" href="">Production virtuelle</a></span>
                                 </div>
                                 <div class="entry-header">
-                                    <h1 class="entry-title">15 SEO Best Practices:  Website Architecture</h1>
+                                    <h1 class="entry-title">La révolution virtuelle</h1>
                                         <div class="entry-meta">
-                                            <span class="byline"><a class="url fn n" href="#"><i class="flaticon-user"></i> Tom Black</a></span>
+                                            <span class="byline"><a class="url fn n" href="#"><i class="flaticon-user"></i> Arnaud FERNANDEZ</a></span>
                                             <span class="posted-on">
-                                                <a href="#"><i class="flaticon-clock"></i><time class="entry-date">November 21, 2019</time></a>
+                                                <a href="#"><i class="flaticon-clock"></i><time class="entry-date">Décembre 01, 2023</time></a>
                                             </span>
-                                            <span class="comment-num"><a href="#"><i class="flaticon-chat"></i> 3 Comments</a></span>
-                                            <span class="sl-wrapper"><a href="#">
-                                                <span class="sl-icon">
-                                                    <svg role="img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0" y="0" viewBox="0 0 128 128" enable-background="new 0 0 128 128" xml:space="preserve">
-                                                        <path id="heart-full" d="M124 20.4C111.5-7 73.7-4.8 64 19 54.3-4.9 16.5-7 4 20.4c-14.7 32.3 19.4 63 60 107.1C104.6 83.4 138.7 52.7 124 20.4z"></path>♥
-                                                    </svg>
-                                                </span>
-                                                <span class="sl-count">38</span><span class="sl-text">Likes</span></a><span id="sl-loader"></span></span>
                                         </div><!-- .entry-meta -->
                                 </div>
                             </div>
@@ -274,206 +241,13 @@
                             </div>
                         </div>
 
-                        <aside class="widget-area primary-sidebar col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                            <section id="author_widget-2" class="widget onum_author-widget">
-                                <div class="author-widget_wrapper text-center">
-                                    <div class="author-widget_image-wrapper">
-                                        <img class="author-widget_image img-circle" src="https://via.placeholder.com/150x150.png" alt="Kate Olson">
-                                    </div>
-                                    <h5 class="author-widget_title">Kate Olson</h5>
-                                    <p class="author-widget_text">She is the CEO. She's a big fan her cat Tux, &amp; dinner parties.</p>
-                                    <div class="author-widget_social">
-                                        <a class="social-twitter" href="#"><i class="fab fa-twitter"></i></a>
-                                        <a class="social-facebook" href="#"><i class="fab fa-facebook-f"></i></a>
-                                        <a class="social-linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
-                                        <a class="social-instagram" href="#"><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </section>
-                            <section class="widget widget_categories">
-                                <h5 class="widget-title">Categories</h5>
-                                <ul>
-                                    <li><a href="#">Agency</a> <span class="posts-count">(1)</span></li>
-                                    <li><a href="#">Business</a> <span class="posts-count">(3)</span></li>
-                                    <li><a href="#">Marketing</a> <span class="posts-count">(5)</span></li>
-                                    <li><a href="#">SEO</a> <span class="posts-count">(3)</span></li>
-                                </ul>
-                            </section>
-                            <section id="search-2" class="widget widget_search">
-                                <form role="search" method="get" id="search-form" class="search-form" action="">
-                                    <input type="search" class="search-field" placeholder="Search…" value="" name="s">
-                                    <button type="submit" class="search-submit"><i class="flaticon-search"></i></button>
-                                </form>
-                            </section>
-                            <section class="widget widget_recent_news">
-                                <h5 class="widget-title">Recent Posts</h5>
-                                <ul class="recent-news clearfix">
-
-                                    <li class="clearfix">
-                                        <div class="thumb">
-                                            <a href="single-blog.html">
-                                                <img src="https://via.placeholder.com/70x70.png" class="" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="entry-header">
-                                            <h6><a href="single-blog.html">15 SEO Best Practices:  Website Architecture</a></h6>
-                                            <span class="post-on"><span class="entry-date">November 21, 2019</span></span>
-                                        </div>
-                                    </li>
-
-                                    <li class="clearfix">
-                                        <div class="thumb">
-                                            <a href="single-blog.html">
-                                                <img src="https://via.placeholder.com/70x70.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="entry-header">
-                                            <h6><a href="single-blog.html">SEO Best Practices: Mobile  Friendliness</a></h6>
-                                            <span class="post-on"><span class="entry-date">November 21, 2019</span></span>
-                                        </div>
-                                    </li>
-
-                                    <li class="clearfix">
-                                        <div class="thumb">
-                                            <a href="single-blog.html">
-                                                <img src="https://via.placeholder.com/70x70.png" alt="">
-                                            </a>
-                                        </div>
-                                        <div class="entry-header">
-                                            <h6><a href="single-blog.html">A Guide to Google SEO  Algorithm Updates</a></h6>
-                                            <span class="post-on"><span class="entry-date">September 24, 2019</span></span>
-                                        </div>
-                                    </li>
-
-                                </ul>
-                            </section>
-                            <section id="instagram_widget-1" class="widget instagram_widget">
-                                <h5 class="widget-title">Instagram</h5>
-                                <div class="widget-insta-feeds instafeed-gallery">
-                                    <div class="instafeed-item">
-                                        <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                    </div>
-                                    <div class="instafeed-item">
-                                        <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                    </div>
-                                    <div class="instafeed-item">
-                                        <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                    </div>
-                                    <div class="instafeed-item">
-                                        <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                    </div>
-                                    <div class="instafeed-item">
-                                        <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                    </div>
-                                    <div class="instafeed-item">
-                                        <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </section>
-                            <section id="tag_cloud-1" class="widget widget_tag_cloud">
-                                <h5 class="widget-title">Tags</h5>
-                                <div class="tagcloud">
-                                    <a href="#" class="tag-cloud-link">business</a>
-                                    <a href="#" class="tag-cloud-link">marketing</a>
-                                    <a href="#" class="tag-cloud-link">SEO</a>
-                                    <a href="#" class="tag-cloud-link">SMM</a>
-                                    <a href="#" class="tag-cloud-link">solution</a>
-                                    <a href="#" class="tag-cloud-link">startup</a>
-                                    <a href="#" class="tag-cloud-link">strategy</a>
-                                    <a href="#" class="tag-cloud-link">tips</a>
-                                </div>
-                            </section>
-                        </aside>
+                        <?php include '../person-poster-template/arnaudF_poster.php'?>
                     </div>
                 </div>
             </div>
         </div>
 
-    <footer id="site-footer" class="site-footer site-footer-2 bg-gradient-2">
-        <div class="main-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget">
-                            <img src="images/logo.png" class="attachment-full size-full m-b25" alt="">
-                            <p class="m-b30">Our approach to SEO is uniquely built around what we know works…and what we know doesn’t work. With over 200 verified factors in play.</p>
-                            <div class="footer-social">
-                                <a class="footer-social-icon twitter" href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-                                <a class="footer-social-icon facebook" href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a class="footer-social-icon linkedin" href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                <a class="footer-social-icon instagram" href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget">
-                            <h5>Contacts</h5>
-                            <div class="footer-contact-2">
-                                <ul class="font-second">
-                                    <li><strong>Address:</strong> 411 University St,<br>Seattle, USA</li>
-                                    <li><strong>Email:</strong> onum_company@mail.com</li>
-                                    <li><strong>Phone:</strong> +1 -800-456-478-23</li>
-                                    <li><strong>Open:</strong> Mon 8:00 am – 18:00 pm</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget">
-                            <h5>Services</h5>
-                            <ul class="ft-menu-list">
-                                <li class="ft-menu-item">
-                                    <a href="#">SEO for Small Business</a>
-                                </li>
-                                <li class="ft-menu-item">
-                                    <a href="#">SEO for Local Services</a>
-                                </li>
-                                <li class="ft-menu-item">
-                                    <a href="#">Enterprise SEO</a>
-                                </li>
-                                <li class="ft-menu-item">
-                                    <a href="#">National SEO</a>
-                                </li>
-                                <li class="ft-menu-item">
-                                    <a href="#">International SEO</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6">
-                        <div class="footer-widget">
-                            <h5>Instagram</h5>
-                            <div class="widget-insta-feeds instafeed-gallery">
-                                <div class="instafeed-item">
-                                    <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                </div>
-                                <div class="instafeed-item">
-                                    <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                </div>
-                                <div class="instafeed-item">
-                                    <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                </div>
-                                <div class="instafeed-item">
-                                    <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                </div>
-                                <div class="instafeed-item">
-                                    <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                </div>
-                                <div class="instafeed-item">
-                                    <a href="#" target="_blank"><img src="https://via.placeholder.com/80x80.png" alt=""></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <p class="copyright-2 text-center">Copyright © 2020 Onum by OceanThemes. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer><!-- #site-footer -->
+    <?php include '../footer.php'?>
 </div><!-- #page -->
 <a id="back-to-top" href="#" class="show"><i class="flaticon-arrow-pointing-to-up"></i></a>
         <!-- jQuery -->

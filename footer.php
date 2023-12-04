@@ -1,4 +1,5 @@
-<footer class="site-footer-home2 site-footer-2" id="site-footer-home2">
+<?php $basePath = '/NNVirtual/'; ?>
+    <footer class="site-footer-home2 site-footer-2" id="site-footer-home2">
         <div class="shape shape-top" data-negative="false">
             <svg preserveAspectRatio="none" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
                 <path class="shape-fill"
@@ -107,7 +108,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-2 col-sm-2 col-xs-6 xs-text-center imageLogoBottomWrapper">
-                        <img class="imageLogoBottom" alt="NoName Virtual logo" src="images/LOGO_Virtual_Transparent_V0_cropped.png">
+                        <img class="imageLogoBottom" alt="NoName Virtual logo" src="<?php echo $basePath ?>images/LOGO_Virtual_Transparent_V0_cropped.png">
                     </div>
                     <div class="col-md-10 col-sm-10 col-xs-12">
                         <p id="copyrights" class="copyright-2 text-right">Copyright © 2023 NoName Virtual by NoName. Tous droits réservés.</p>
