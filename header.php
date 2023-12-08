@@ -73,10 +73,9 @@
                             <div class="custom-select">
                                 <label id="language" style="display: none"></label>
                                 <div id="languageSelector">
-                                    <input type="radio" checked id="fr" name="language" value="fr" class="frSelectBackground">
+                                    <input type="radio" id="frSelectorRadio" name="language" value="fr" class="frSelectBackground">
                                     <label for="fr">Français</label>
-
-                                    <input type="radio" id="en" name="language" value="en" class="enSelectBackground">
+                                    <input type="radio" id="enSelectorRadio" name="language" value="en" class="enSelectBackground">
                                     <label for="en">English</label>
                                 </div>
                             </div>
@@ -156,7 +155,7 @@
                             <ul class="sub-menu">
                                 <li>
                                     <label for="languageSelectorMobile"></label>
-                                    <select id="languageSelectorMobile">
+                                    <select style="width: 100px;" id="languageSelectorMobile">
                                         <option value="fr">Français</option>
                                         <option value="en">English</option>
                                         <!-- ... autres options de langue -->

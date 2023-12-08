@@ -34,7 +34,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
             textKeys = keys;
 
-
             var userLang = navigator.language || navigator.userLanguage;
 
             if (userLang.startsWith("en")) {
@@ -54,6 +53,19 @@ document.addEventListener('DOMContentLoaded', function () {
 function changeLanguage(lng) {
     i18n.changeLanguage(lng, (err, t) => {
         if (err) return console.log('something went wrong loading', err);
+        console.log(lng);
+        if(lng == "en") {
+            document.getElementById("frSelectorRadio").checked = false;
+            document.getElementById("enSelectorRadio").checked = true;
+
+            document.getElementById("languageSelectorMobile").selectedIndex = 1;
+        } else if (lng == "fr") {
+            document.getElementById("enSelectorRadio").checked = false;
+            document.getElementById("frSelectorRadio").checked = true;
+
+            document.getElementById("languageSelectorMobile").selectedIndex = 2;
+
+        }
         updateTranslations();
     });
 }
