@@ -577,7 +577,7 @@
                     <div class="col-md-12 col-xs-12 p-b120 xs-p-b60">
                         <div class="real-numbers font-second">
                             <span id="before" class="b-switch active">Avant</span>
-                            <label class="switch">
+                            <label aria-label="Before After Switch" class="switch">
                                 <input type="checkbox">
                                 <span class="slider round"></span>
                             </label>
@@ -766,7 +766,7 @@
                             <h2 id="videoHighlightText">Des images valent mieux que milles mots !</h2>
                             <div class="video-popup">
                                 <div class="btn-inner">
-                                    <a class="btn-play" href="https://vimeo.com/863077697"><i class="fas fa-play"></i>
+                                    <a aria-label="Start showreel" class="btn-play" href="https://vimeo.com/863077697"><i class="fas fa-play"></i>
                                         <span class="circle-1"></span>
                                         <span class="circle-2"></span>
                                     </a>
@@ -1224,30 +1224,10 @@
     <?php include 'footer.php'?>
 
 </div><!-- #page -->
-<a class="show" href="#" id="back-to-top"><i class="flaticon-arrow-pointing-to-up"></i></a>
-<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/easypiechart.js"></script>
-<script src="js/particles.min.js"></script>
-<script src="js/jquery.countdown.min.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/internationalization.js"></script>
-<script src="js/header-mobile.js"></script>
-<script src="js/royal_preloader.min.js"></script>
-<!-- REVOLUTION JS FILES -->
-<script src="plugins/revolution/revolution/js/jquery.themepunch.tools.min.js"></script>
-<script src="plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js"></script>
+<a aria-label="Back to top" class="show" href="" id="back-to-top"><i class="flaticon-arrow-pointing-to-up"></i></a>
 
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-<script src="plugins/revolution/revolution/js/extensions/revolution-plugin.js"></script>
+<?php include "scripts.php"?>
 
-<!-- REVOLUTION SLIDER SCRIPT FILES -->
-<script src="js/rev-script-2.js"></script>
-
-<script src="dist/bundle-webpack.js"></script>
 </body>
 </html>
 <script type="text/javascript">

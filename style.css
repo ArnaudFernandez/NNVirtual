@@ -2266,14 +2266,14 @@ td {
   background: #F24738;
 }
 .octf-btn-third.octf-btn {
-  box-shadow: 12px 12px 20px 0 rgba(42, 67, 113, 0.3);
-  -webkit-box-shadow: 12px 12px 20px 0 rgba(42, 67, 113, 0.3);
-  -moz-box-shadow: 12px 12px 20px 0 rgba(42, 67, 113, 0.3);
+  box-shadow: 0 0 13px 0 rgba(242, 71, 56, 0.2);
+  -webkit-box-shadow: 0 0 13px 0 rgba(242, 71, 56, 0.2);
+  -moz-box-shadow: 0 0 13px 0 rgba(242, 71, 56, 0.2);
 }
 .octf-btn-third.octf-btn-icon {
-  box-shadow: 8px 8px 18px 0 rgba(42, 67, 113, 0.3);
-  -webkit-box-shadow: 8px 8px 18px 0 rgba(42, 67, 113, 0.3);
-  -moz-box-shadow: 8px 8px 18px 0 rgba(42, 67, 113, 0.3);
+  box-shadow: 6px 6px 13px 0 rgba(242, 71, 56, 0.3);
+  -webkit-box-shadow: 6px 6px 13px 0 rgba(242, 71, 56, 0.3);
+  -moz-box-shadow: 6px 6px 13px 0 rgba(242, 71, 56, 0.3);
 }
 .octf-btn-third i {
   color: #F24738;
@@ -11649,14 +11649,14 @@ div.tp-bullets{
   position: relative;
   display: inline-block;
   margin-bottom: 40px;
-  color: #0039e4;
-  background-image: -moz-linear-gradient(145deg, #0039e4, #04daf1);
-  background-image: -webkit-linear-gradient(145deg, #0039e4, #04daf1);
-  background-image: linear-gradient(145deg, #0039e4, #04daf1);
+  color: #F24738;
+  background-image: -moz-linear-gradient(145deg, #F24738, #F37066);
+  background-image: -webkit-linear-gradient(145deg, #F24738, #F37066);
+  background-image: linear-gradient(145deg, #F24738, #F37066);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  text-shadow: 8px 8px 13px rgba(2, 156, 236, 0.3);
-  -moz-text-shadow: 8px 8px 13px rgba(2, 156, 236, 0.3);
+  text-shadow: 8px 8px 18px rgba(242, 71, 56, 0.3);
+  -moz-text-shadow: 8px 8px 18px rgba(242, 71, 56, 0.3);
 }
 .error-404 h2 img {
   position: absolute;

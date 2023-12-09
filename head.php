@@ -2,8 +2,8 @@
 <head>
     <meta charset="utf-8">
     <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport"/>
-    <title>NoName Virtual - Contact us</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=5" name="viewport"/>
+    <title>NoName Virtual</title>
     <link href="<?php echo $basePath ?>css/bootstrap.css" rel="stylesheet"/>
     <link href="<?php echo $basePath ?>css/font-awesome.css" rel="stylesheet"/>
     <link href="<?php echo $basePath ?>css/flaticon.css" rel="stylesheet"/>
@@ -24,15 +24,11 @@
     <link rel="icon" href="<?php echo $basePath ?>images/Logo%20entete%20site.webp" sizes="192x192" />
     <link rel="apple-touch-icon" href="<?php echo $basePath ?>images/Logo%20entete%20site.webp" />
     <meta name="msapplication-TileImage" content="<?php echo $basePath ?>images/Logo%20entete%20site.webp" />
-    <meta
-            name="description"
-            content="Nous produisons des contenus en production virtuelle qui vous démarquent de la concurrence et vous placent au rang des marques les plus prestigieuses.
-             Découvrir nos offres flexibles et adapté à vos besoins, émissions en direct, clips vidéos, livestreaming, publicités, créez des visuels époustouflants grâce à la puissance de la production virtuelle !"
-    />
-    <meta property="og:title" content="No Name Virtual" />
+    <meta content="Explorez les solutions de pointe en production virtuelle offertes par NoName Virtual. Technologie avancée, créativité sans limites." name="description"/>
+    <meta property="og:title" content="NoName Virtual - Production Virtuelle Innovante" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="http://example.com/image.jpg" />
-    <meta property="og:url" content="http://example.com/page.html" />
-    <meta property="og:description" content="Description de votre page" />
+    <meta property="og:image" content="<?php echo $basePath?>images/Logo%20entete%20site.webp" />
+    <meta property="og:url" content="http://tochange.fr/" />
+    <meta property="og:description" content="Explorez les solutions de pointe en production virtuelle offertes par NoName Virtual. Technologie avancée, créativité sans limites." />
 
 </head>

@@ -77,8 +77,8 @@
                         <!-- social icons -->
                         <div class="social-list-wrapper">
                             <ul class="social-list">
-                                <li><a href="https://www.linkedin.com/company/no-name-visual/" target="_self"><i class="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="https://www.instagram.com/_no_name_visual/" target="_self"><i class="fab fa-instagram"></i></a></li>
+                                <li><a aria-label="NoName LinkedIn" href="https://www.linkedin.com/company/no-name-visual/" target="_self"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a aria-label="NoName Instagram" href="https://www.instagram.com/_no_name_visual/" target="_self"><i class="fab fa-instagram"></i></a></li>
                             </ul>
                         </div>
                         <!-- social icons close -->
@@ -94,7 +94,7 @@
                                         <label>
                                             <input disabled name="email" placeholder="Comming soon" required="" type="email">
                                         </label>
-                                        <button class="subscribe-btn-icon" type="submit"><i class="flaticon-send"></i>
+                                        <button aria-label="Subscribe to newsletter - DISABLED" class="subscribe-btn-icon" type="submit"><i class="flaticon-send"></i>
                                         </button>
                                     </div>
                                 </div>

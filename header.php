@@ -63,8 +63,8 @@
                             <!-- Call To Action -->
                             <div class="octf-btn-cta">
                                 <div class="octf-header-module">
-                                    <div class="btn-cta-group btn-cta-header" style="margin: 0 20px 0 0">
-                                        <a class="octf-btn octf-btn-third" href="<?php echo $basePath ?>contact-us.php">
+                                    <div class="btn-cta-group btn-cta-header" style="margin: 0 10px 0 0">
+                                        <a class="octf-btn octf-btn-third" style="padding: 15px 20px" href="<?php echo $basePath ?>contact-us.php">
                                             <div id="ctaButton">Allons-y</div>
                                         </a>
                                     </div>
@@ -99,7 +99,7 @@
                 <!-- logo mobile end -->
 
                 <div id="mmenu_toggle" class="menuButtonToggle">
-                    <button></button>
+                    <button aria-label="Menu"></button>
                 </div>
 
             </div>
